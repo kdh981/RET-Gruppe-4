@@ -1,4 +1,4 @@
-# Gruppenarbeit Gruppe-4 ❮img src="images/Logo%20Gruppe%204.png" width="100" ❯
+# Gruppenarbeit Gruppe-4 <img src="images/Logo%20Gruppe%204.png" width="100" >
 
 ## Dampferzeuger
 

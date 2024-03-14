@@ -28,7 +28,53 @@
 
         <section id="modell">
             <h2>Aufbau des Modells</h2>
-            <p>Beschreibung des Modellaufbaus...</p>
+            <p>Beschreibung des Modellaufbaus...
+                Vorgeben und Annahmen:
+<table class="datentabelle">
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Symbol</th>
+            <th>Einheit</th>
+            <th>Wert</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Kondensatoraustrittstemperatur</td>
+            <td>T<sub>3</sub></td>
+            <td>°C</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Oberes Druckniveau</td>
+            <td>p<sub>0</sub></td>
+            <td>bar</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Unteres Druckniveau</td>
+            <td>p<sub>U</sub></td>
+            <td>bar</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Wärmeleistung</td>
+            <td>&#46;Q</td>
+            <td>kW</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Überhitzung am Verdampferaustritt</td>
+            <td>T</td>
+            <td>°C</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</p>
         </section>
 
         <section id="ergebnisse">

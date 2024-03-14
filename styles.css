@@ -55,3 +55,25 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+.datentabelle {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.datentabelle th, .datentabelle td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.datentabelle th {
+    background-color: #f2f2f2;
+}
+
+.datentabelle tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+

@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo%20Gruppe%204.png" width="100" ></h1>
+            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100" ></h1>
             <nav>
                 <ul>
                     <li><a href="#einleitung">Einleitung und Übersicht</a></li>

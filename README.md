@@ -30,6 +30,39 @@
             <h2>Aufbau des Modells</h2>
             <p>Beschreibung des Modellaufbaus...
             <p>Vorgaben und Annahmen:
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Einheit</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hochdruckdampf</td>
+      <td>p<sub>H</sub>; ṁ</td>
+      <td>bar; t/h</td>
+      <td>40 bar; 90 t/h</td>
+    </tr>
+    <tr>
+      <td>Mitteldruckdampf</td>
+      <td>p<sub>M</sub>; ṁ</td>
+      <td>bar; t/h</td>
+      <td>14 bar; 360 t/h</td>
+    </tr>
+    <tr>
+      <td>Niederdruckdampf</td>
+      <td>p<sub>N</sub>; ṁ</td>
+      <td>bar; t/h</td>
+      <td>4 bar; 900 t/h</td>
+    </tr>
+  </tbody>
+</table>
+
+
 <table class="datentabelle">
     <thead>
         <tr>

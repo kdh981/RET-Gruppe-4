@@ -93,10 +93,10 @@ steamgenerator.add_conns(D31, D32, D33, D34, D35, D36)
 # components Data Turbine System
 cmp_cp.set_attr(eta_s=0.8)
 cmp_tb.set_attr(eta_s=0.9)
-cmp_cc.set_attr(lamb=2)
+#cmp_cc.set_attr(lamb=2)
 
 #data Turbine connections
-c01.set_attr(p=1, T=15, fluid=fld_air)
+c01.set_attr(p=1, T=15, m=95, fluid=fld_air)
 c03.set_attr(T=15, m=3, p=30, fluid=fld_gas)
 #c04.set_attr(T=1600) #wieso funktioniert es nicht mit der Turbineneintrittstemperatur?
 c11.set_attr(p=1)
@@ -142,6 +142,8 @@ steamgenerator.print_results()
 #was machst dieser Schritt genau ?
 c03.set_attr(m=None)
 cmp_eco1.set_attr(ttd_l=20)
+c01.set_attr(m=None)
+c04.set_attr(T=1600)
 #cmp_eco2.set_attr(ttd_l=20)
 
 steamgenerator.solve(mode='design')

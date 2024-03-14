@@ -29,7 +29,7 @@
         <section id="modell">
             <h2>Aufbau des Modells</h2>
             <p>Beschreibung des Modellaufbaus...
-                Vorgeben und Annahmen:
+            <p>Vorgaben und Annahmen:
 <table class="datentabelle">
     <thead>
         <tr>

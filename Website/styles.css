@@ -6,29 +6,30 @@ body {
 }
 
 /* Styling für die Tabellen */
+/* Allgemeines Styling für Tabellen */
 table {
-    width: 80%; /* einheitliche Breite für alle Tabellen */
-    border-collapse: collapse;
-    margin: 20px auto; /* Zentriert die Tabelle mit automatischen Seitenrändern */
-    background-color: #fff; /* Weißer Hintergrund für die Tabellen */
+    width: 80%; /* Setzt die Breite aller Tabellen auf 80% des Elternelements */
+    margin: 20px auto; /* Zentriert die Tabelle horizontal */
+    border-collapse: collapse; /* Entfernt den Abstand zwischen den Zellen */
 }
 
 th, td {
     padding: 10px;
-    border: 1px solid #ccc; /* Grauer Rahmen für die Zellen */
-    text-align: left; /* Textausrichtung in Zellen nach links */
+    border: 1px solid #ccc; /* Fügt einen grauen Rahmen hinzu */
+    text-align: left; /* Textausrichtung */
 }
 
 th {
-    background-color: #e0ebf9; /* Dezentes Blau für die Überschriften */
-    color: #333;
+    background-color: #e0ebf9; /* Hintergrundfarbe der Kopfzeile */
+    color: #333; /* Schriftfarbe der Kopfzeile */
 }
 
 caption {
     margin-bottom: 10px;
     font-weight: bold;
-    text-align: left; /* Textausrichtung der Beschriftung nach links */
+    text-align: left; /* Richtet die Tischbeschriftung links aus */
 }
+
 
 /* Navigationsleiste */
 nav {

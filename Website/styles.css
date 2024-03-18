@@ -2,18 +2,21 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    /*background-color: #e0ebf9; /* Blauer Hintergrund für den gesamten body */
 }
 
 /* Styling für die Tabellen */
 table {
-    width: 100%;
+    width: 80%; /* einheitliche Breite für alle Tabellen */
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px auto; /* Zentriert die Tabelle mit automatischen Seitenrändern */
+    background-color: #fff; /* Weißer Hintergrund für die Tabellen */
 }
 
 th, td {
     padding: 10px;
     border: 1px solid #ccc; /* Grauer Rahmen für die Zellen */
+    text-align: left; /* Textausrichtung in Zellen nach links */
 }
 
 th {
@@ -24,7 +27,33 @@ th {
 caption {
     margin-bottom: 10px;
     font-weight: bold;
+    text-align: left; /* Textausrichtung der Beschriftung nach links */
 }
 
-/* Zusätzliche Stile können hier hinzugefügt werden */
+/* Stile für die Kopfzeile */
+header {
+    background-color: #0056b3; /* Dunkleres Blau für den Kopfbereich */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
 
+/* Stile für den Fußbereich */
+footer {
+    background-color: #0056b3; /* Dunkleres Blau für den Fußbereich */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Stil für Überschriften im body */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Dunklere Schriftfarbe für Überschriften */
+}
+
+/* Wenn der Hintergrund des body nicht blau sein soll, entferne den background-color Stil vom body und setze ihn stattdessen hier */
+/*
+header, footer {
+    background-color: #e0ebf9;
+}
+*/

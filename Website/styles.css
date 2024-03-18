@@ -1,29 +1,30 @@
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
 
-/*
-Tabllen Layout
- */
+/* Styling für die Tabellen */
 table {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ccc; /* Grauer Rahmen für die Tabelle */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
 th, td {
-  border: 1px solid #ccc; /* Grauer Rahmen für jede Zelle */
-  padding: 8px;
-  text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc; /* Grauer Rahmen für die Zellen */
 }
 
 th {
-  background-color: #e0ebf9; /* Dezentes Blau für die Überschrift */
-  color: #333;
+    background-color: #e0ebf9; /* Dezentes Blau für die Überschriften */
+    color: #333;
 }
 
 caption {
-  font-size: larger;
-  margin-bottom: 10px;
-  color: #333;
-  font-weight: bold;
-  background-color: #e0ebf9; /* Dezentes Blau für die Tabellenbeschriftung */
+    margin-bottom: 10px;
+    font-weight: bold;
 }
+
+/* Zusätzliche Stile können hier hinzugefügt werden */
 

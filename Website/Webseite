@@ -5,7 +5,6 @@
     <title>Gruppenarbeit Gruppe-4</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<link ref
 <body>
     <header>
         <div class="container">
@@ -32,7 +31,11 @@
             <p>Beschreibung des Modellaufbaus...
             <p>Vorgaben und Annahmen:
 
+<!-- Tabelle 1 -->
+
+
 <table>
+  <caption>Zielwerte</caption>
   <thead>
     <tr>
       <th>Parameter</th>
@@ -44,68 +47,161 @@
   <tbody>
     <tr>
       <td>Hochdruckdampf</td>
-      <td>p<sub>H</sub>; ṁ</td>
+      <td>p<sub>H</sub>; m&#775;</td>
       <td>bar; t/h</td>
       <td>40 bar; 90 t/h</td>
     </tr>
     <tr>
       <td>Mitteldruckdampf</td>
-      <td>p<sub>M</sub>; ṁ</td>
+      <td>p<sub>M</sub>; m&#775;</td>
       <td>bar; t/h</td>
       <td>14 bar; 360 t/h</td>
     </tr>
     <tr>
       <td>Niederdruckdampf</td>
-      <td>p<sub>N</sub>; ṁ</td>
+      <td>p<sub>N</sub>; m&#775;</td>
       <td>bar; t/h</td>
       <td>4 bar; 900 t/h</td>
     </tr>
   </tbody>
 </table>
 
+<!-- Tabelle 2 -->
 
-<table class="datentabelle">
-    <thead>
-        <tr>
-            <th>Parameter</th>
-            <th>Symbol</th>
-            <th>Einheit</th>
-            <th>Wert</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Kondensatoraustrittstemperatur</td>
-            <td>T<sub>3</sub></td>
-            <td>°C</td>
-            <td>40</td>
-        </tr>
-        <tr>
-            <td>Oberes Druckniveau</td>
-            <td>p<sub>0</sub></td>
-            <td>bar</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Unteres Druckniveau</td>
-            <td>p<sub>U</sub></td>
-            <td>bar</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>Wärmeleistung</td>
-            <td>&#46;Q</td>
-            <td>kW</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Überhitzung am Verdampferaustritt</td>
-            <td>T</td>
-            <td>°C</td>
-            <td>2</td>
-        </tr>
-    </tbody>
+
+<table>
+  <caption>Ausgangswerte</caption>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Einheit</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Druckverlust</td>
+      <td>pDV</td>
+      <td>bar</td>
+      <td>1 bar</td>
+    </tr>
+    <tr>
+      <td>Erdgas</td>
+      <td>pEG; TEG</td>
+      <td>bar; °C</td>
+      <td>30 bar; 15 °C</td>
+    </tr>
+    <tr>
+      <td>Luft</td>
+      <td>pLuft; Tluft</td>
+      <td>bar; °C</td>
+      <td>1 bar; 15 °C</td>
+    </tr>
+    <tr>
+      <td>Luftzusammensetzung</td>
+      <td>x</td>
+      <td>-</td>
+      <td>N2: 0,79; O2: 0,21</td>
+    </tr>
+  </tbody>
 </table>
+
+<!-- Tabelle 3 -->
+
+<table>
+  <caption>Gasturbinen</caption>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Einheit</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>isentroper Verdichterwirkungsgrad</td>
+      <td>&eta;<sub>is,Verdichter</sub></td>
+      <td>-</td>
+      <td>90%</td>
+    </tr>
+    <tr>
+      <td>maximale Feuerungstemperatur</td>
+      <td>T<sub>max_BK</sub></td>
+      <td>°C</td>
+      <td>1600 °C</td>
+    </tr>
+    <tr>
+      <td>isentroper Expanderwirkungsgrad</td>
+      <td>&eta;<sub>is,Expander</sub></td>
+      <td>-</td>
+      <td>90%</td>
+    </tr>
+    <tr>
+      <td>mechanischer Wirkungsgrad</td>
+      <td>&eta;<sub>m</sub></td>
+      <td>-</td>
+      <td>99%</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Tabelle 4 -->
+
+<table>
+  <caption>Pumpen</caption>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Einheit</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>isentroper Wirkungsgrad</td>
+      <td>&eta;<sub>is</sub></td>
+      <td>-</td>
+      <td>80%</td>
+    </tr>
+    <tr>
+      <td>mechanischer Wirkungsgrad</td>
+      <td>&eta;<sub>m</sub></td>
+      <td>-</td>
+      <td>99%</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Tabelle 5 -->
+<table>
+  <caption>Generatoren</caption>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Einheit</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mechanisch-elektrischer Wirkungsgrad</td>
+      <td>&eta;<sub>m-el</sub></td>
+      <td>-</td>
+      <td>98,50%</td>
+    </tr>
+    <tr>
+      <td>mechanischer Wirkungsgrad</td>
+      <td>&eta;<sub>m</sub></td>
+      <td>-</td>
+      <td>100%</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 </p>

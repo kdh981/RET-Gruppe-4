@@ -23,7 +23,10 @@
     <div class="container">
         <section id="einleitung">
             <h2>Einleitung</h2>
-            <p>Das Ziel des Projekts ist es, ein Dampferzeuger zu modellieren. Dafür wird Tespy verwendet und mit dem Programm Ebsilon verglichen.</p>
+            <p>Für das Modul Vertiefendes Rechnerpraktikum zur Energietechnik ist das Ziel, einen industriellen Dampferzeugungsprozess zu entwerfen, modellieren und zu simulieren. Dafür wird das Programm TESPy und Ebsilon verwendet. 
+
+In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt diese in einer Brennkammer, um die benötigten Dampfstufen zu erreichen. Es ist eine Gasturbine zwischen der Brennkammer und den Wärmetauscher geschaltet, um elektrische Energie zu erzeugen und die hohen Temperaturen der Abwärme Sinnvoll zu nutzten. In weiteren Modellen wird eine Einbindung einer Wärmepumpe sowie solarthermischer Energie betrachtet und diskutiert ob dies eine Sonnvolle Möglichkeit ist den C02 zu reduzieren. 
+</p>
         </section>
 
         <section id="modell">

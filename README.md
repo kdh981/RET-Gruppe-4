@@ -208,8 +208,7 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 
 
 </p>
-        </section>
-
+        
         <section id="ergebnisse">
             <h2>Ergebnisse</h2>
             <p>Darstellung der Ergebnisse...</p>

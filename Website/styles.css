@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    text-align: justify; /* Sorgt für Blocksatz */
     /*background-color: #e0ebf9; /* Blauer Hintergrund für den gesamten body */
 }
 

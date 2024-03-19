@@ -69,11 +69,21 @@ nav ul li a:focus {
 
 /* Stile für den Fußbereich */
 footer {
-    background-color: #0056b3; /* Dunkleres Blau für den Fußbereich */
-    color: black;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #0056b3; /* Dunkelblauer Hintergrund */
+    color: white; /* Weiße Schrift */
+    text-align: center; /* Zentriert den Text */
+    padding: 20px 0; /* Abstand oben und unten */
 }
+
+.footer-content {
+    margin: auto;
+    width: 80%; /* Steuert die Breite des Inhalts innerhalb des Footers */
+}
+
+footer p {
+    margin: 10px 0; /* Fügt einen Abstand zwischen den Paragraphen hinzu */
+}
+
 
 /* Stil für Überschriften im body */
 h1, h2, h3, h4, h5, h6 {

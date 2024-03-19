@@ -1,88 +1,114 @@
 /* Allgemeine Einstellungen */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    /*background-color: #e0ebf9; /* Blauer Hintergrund für den gesamten body */
+    font-family: Arial, sans-serif; /* Schriftart für die gesamte Webseite */
+    line-height: 1.6; /* Zeilenhöhe für einen besseren Textfluss */
+    text-align: justify; /* Stellt den Text im Blocksatz dar */
+    /* Der Hintergrundfarbe-Kommentar ist korrigiert. */
+    /* background-color: #e0ebf9; */ /* Optional: Blauer Hintergrund für den gesamten Body, momentan auskommentiert */
+}
+
+p {
+    text-align: justify; /* Ermöglicht Blocksatz für alle Absätze */
+    text-justify: inter-word; /* Verbessert Blocksatz durch Anpassung des Wortabstands */
 }
 
 /* Styling für die Tabellen */
-/* Allgemeines Styling für Tabellen */
 table {
-    width: 80%; /* Setzt die Breite aller Tabellen auf 80% des Elternelements */
-    margin: 20px auto; /* Zentriert die Tabelle horizontal */
-    border-collapse: collapse; /* Entfernt den Abstand zwischen den Zellen */
+    width: 80%; /* Setzt die Breite aller Tabellen auf 80% der Breite des Elternelements */
+    margin: 20px auto; /* Zentriert die Tabelle horizontal und fügt oben und unten einen Abstand hinzu */
+    border-collapse: collapse; /* Entfernt den Abstand zwischen den Zellen für eine einheitliche Darstellung */
 }
 
 th, td {
-    padding: 10px;
-    border: 1px solid #ccc; /* Fügt einen grauen Rahmen hinzu */
-    text-align: left; /* Textausrichtung */
+    padding: 10px; /* Fügt Innenabstand zu allen Zellen hinzu */
+    border: 1px solid #ccc; /* Definiert einen grauen Rahmen für die Zellen */
+    text-align: left; /* Textausrichtung innerhalb der Zellen */
 }
 
 th {
-    background-color: #e0ebf9; /* Hintergrundfarbe der Kopfzeile */
-    color: #333; /* Schriftfarbe der Kopfzeile */
+    background-color: #e0ebf9; /* Hintergrundfarbe für Kopfzeilen */
+    color: #333; /* Textfarbe für Kopfzeilen */
 }
 
 caption {
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: left; /* Richtet die Tischbeschriftung links aus */
+    margin-bottom: 10px; /* Abstand zwischen Beschriftung und Tabelle */
+    font-weight: bold; /* Macht den Beschriftungstext fett */
+    text-align: left; /* Ausrichtung der Tischbeschriftung nach links */
+}
+
+/* Verringert den Abstand zwischen einem Absatz und der folgenden Tabelle */
+p + table {
+    margin-top: 10px; /* Reduziert den oberen Abstand der Tabelle, wenn sie direkt auf einen Paragraphen folgt */
+}
+
+/* Optimiert den Abstand für die Tabellenbeschriftung */
+caption {
+    margin-bottom: 5px; /* Reduziert den Abstand zwischen der Beschriftung und der Tabelle */
+}
+
+/* Allgemeine Anpassungen für Tabellen */
+table {
+    margin-bottom: 20px; /* Definiert den Abstand nach einer Tabelle, um die Lesbarkeit zu verbessern */
 }
 
 
 /* Navigationsleiste */
 nav {
-    background-color: #0056b3; /* Blauer Hintergrund für die Navigationsleiste */
+    background-color: #0056b3; /* Hintergrundfarbe der Navigationsleiste */
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Entfernt Aufzählungszeichen */
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden; /* Verhindert Überlauf */
 }
 
 nav ul li {
-    float: left; /* Elemente nebeneinander statt untereinander */
+    float: left; /* Platziert die Listenelemente nebeneinander */
 }
 
 nav ul li a {
     display: block;
-    color: white;
+    color: white; /* Textfarbe für Links */
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 14px 16px; /* Außenabstand für Links */
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
 }
 
 nav ul li a:hover {
-    background-color: #003d7a; /* Dunkleres Blau beim Hover */
+    background-color: #003d7a; /* Hintergrundfarbe beim Überfahren der Links */
 }
 
-/* Zusätzliche Anpassungen um die Reiter besser zu gestalten */
+/* Zusätzliche Anpassungen für die Reiter */
 nav ul li a:active,
 nav ul li a:focus {
-    background-color: #004c99; /* Noch dunkleres Blau bei aktivem Reiter */
-}
-
+    background-color: #004c99; /* Hintergrundfarbe für aktive oder fokussierte Links */
 }
 
 /* Stile für den Fußbereich */
 footer {
-    background-color: #0056b3; /* Dunkleres Blau für den Fußbereich */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #0056b3; /* Hintergrundfarbe des Fußbereichs */
+    color: white; /* Textfarbe im Fußbereich */
+    text-align: center; /* Zentriert den Text im Fußbereich */
+    padding: 20px 0; /* Außenabstand oben und unten im Fußbereich */
 }
 
-/* Stil für Überschriften im body */
+.footer-content {
+    margin: auto;
+    width: 80%; /* Breite des Inhalts im Fußbereich */
+}
+
+footer p {
+    margin: 0; /* Vertikaler Abstand zwischen den Paragraphen im Fußbereich */
+}
+
+/* Stil für Überschriften */
 h1, h2, h3, h4, h5, h6 {
-    color: #333; /* Dunklere Schriftfarbe für Überschriften */
+    color: #333; /* Dunkle Schriftfarbe für Überschriften */
 }
 
-/* Wenn der Hintergrund des body nicht blau sein soll, entferne den background-color Stil vom body und setze ihn stattdessen hier */
-/*
-header, footer {
-    background-color: #e0ebf9;
-}
-*/
+/* Optionaler Stil für den Header, momentan auskommentiert */
+/*header {
+    background-color: #ffffff;
+}*/

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -216,7 +216,7 @@
 </table>
 
 
-        </section>
+        
 
         <!-- Ergebnisse -->
         <section id="ergebnisse">
@@ -230,7 +230,7 @@
             <p>Die gestellte Aufgabe wurde erfolgreich bewältigt. Alle Ziele wurden erreicht, darunter die Konzeption, Modellierung und Simulation eines industriellen Dampferzeugungsprozesses. Es wurde untersucht, wie sich die Integration einer Wärmepumpe oder einer Solarthermie auf den Gasverbrauch auswirkt. Dabei hat sich herausgestellt, dass...</p>
             <p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen...</p>
         </section>
-    </div>
+    
 
     <!-- Fußbereich -->
     <footer>
@@ -239,5 +239,5 @@
             <p>Kontakt: info@gruppe4.de</p>
         </div>
     </footer>
-</body>
-</html>
+<!-- </body> 
+</html> -->

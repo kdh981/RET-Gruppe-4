@@ -225,7 +225,7 @@
 
 <p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen. Es wurde auch angenommen, dass eine vollständige Verbrennung in der Brennkammer stattfindet und dass im System keine Wärme- und Druckverluste auftreten. Präzisere Annahmen könnten zu genaueren Ergebnissen führen, die die Realität besser widerspiegeln. Die Annahme, dass Erdgas ausschließlich aus reinem Methan besteht, ist ebenfalls unrealistisch. Erdgas besteht aus verschiedenen Komponenten. Ein interessanter Ansatz wäre es auch zu untersuchen, welchen Einfluss eine aktive Beimischung von Wasserstoff hat. Hier besteht das Potenzial, den CO2-Fußabdruck zu reduzieren. Auch die Möglichkeit der Erdgasvorwärmung könnte betrachtet werden, um die Effizienz zu steigern. Es gibt also noch viel Potenzial, um ein stark realitätsnahes Modell zu entwickeln.
 <p/>
-        </section>
+       
    
 <footer>
     <div class="footer-content">

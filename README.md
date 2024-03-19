@@ -75,7 +75,9 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 
 
 <table>
-  <caption>Ausgangswerte</caption>
+    <table id="tabelle-ausgangswerte">
+  <caption>Tabelle 2: Ausgangswerte</caption>
+  
   <thead>
     <tr>
       <th>Parameter</th>
@@ -115,7 +117,8 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 <!-- Tabelle 3 -->
 
 <table>
-  <caption>Gasturbinen</caption>
+    <table id="tabelle-gasturbine">
+  <caption>Tabelle 3: Gasturbinen</caption>
   <thead>
     <tr>
       <th>Parameter</th>
@@ -155,7 +158,8 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 <!-- Tabelle 4 -->
 
 <table>
-  <caption>Pumpen</caption>
+    <table id="tabelle-pumpen">
+  <caption>Tabelle 4: Pumpen</caption>
   <thead>
     <tr>
       <th>Parameter</th>
@@ -182,7 +186,8 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 
 <!-- Tabelle 5 -->
 <table>
-  <caption>Generatoren</caption>
+      <table id="tabelle-generatoren">
+  <caption>Tabelle 5: Generatoren</caption>
   <thead>
     <tr>
       <th>Parameter</th>

@@ -74,9 +74,8 @@
 
            <!-- Tabelle 2 -->
 <p>Die Ausgangswerte für den Prozess sind in Tabelle 2 dargestellt.</p>
-<table>
-    <table id="tabelle-ausgangswerte">
-  <caption>Tabelle 2: Ausgangswerte</caption>
+<table id="tabelle-ausgangswerte">
+    <caption>Tabelle 2: Ausgangswerte</caption>
   
   <thead>
     <tr>
@@ -115,11 +114,9 @@
 </table>
 
 <!-- Tabelle 3 -->
-<p>In Tabelle 3 sind die Rahmenbedinungen für die Gasturbine aufgeführt.</p>
-
-<table>
-    <table id="tabelle-gasturbine">
-  <caption>Tabelle 3: Gasturbinen</caption>
+<p>In Tabelle 3 sind die Rahmenbedingungen für die Gasturbine aufgeführt.</p>
+<table id="tabelle-gasturbine">
+    <caption>Tabelle 3: Gasturbinen</caption>
   <thead>
     <tr>
       <th>Parameter</th>
@@ -158,7 +155,6 @@
 
 <!-- Tabelle 4 -->
 <p>In Tabelle 4 sind die Rahmenbedinungen für die Pumpen aufgeführt, die in den Modellen verwendet werden.</p>
-
 <table>
     <table id="tabelle-pumpen">
   <caption>Tabelle 4: Pumpen</caption>
@@ -187,10 +183,9 @@
 </table>
 
 <!-- Tabelle 5 -->
-<p>Der mechanisch-elektrischer Wirkungsgrad, sowie der rein mechanischer Wirkungsgrad ist für den Generator in Tabelle 5 aufgeführt.</p>
-<table>
-      <table id="tabelle-generatoren">
-  <caption>Tabelle 5: Generatoren</caption>
+<<p>Der mechanisch-elektrischer Wirkungsgrad sowie der rein mechanische Wirkungsgrad ist für den Generator in Tabelle 5 aufgeführt.</p>
+<table id="tabelle-generatoren">
+    <caption>Tabelle 5: Generatoren</caption>
   <thead>
     <tr>
       <th>Parameter</th>

@@ -5,7 +5,7 @@
     <title>Gruppenarbeit Gruppe-4</title>
     <link rel="stylesheet" href="Website/styles.css">
 </head>
-<body>
+<!-- <body> -->
     <header>
         <div class="container">
             <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100" ></h1>

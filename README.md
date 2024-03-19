@@ -212,19 +212,19 @@
   </tbody>
 </table>
 
-          </section>
-        <section id="ergebnisse">
-            <h2>Ergebnisse</h2>
+              </section>
+                <section id="ergebnisse">
+                <h2>Ergebnisse</h2>
             <p>Darstellung der Ergebnisse...</p/>
-            <section/>
+         <section/>
+            
         </section>
-
-        <section id="ausblick">
+            <section id="ausblick">
             <h2>Ausblick</h2>        
-            <p>Die gestellte Aufgabe wurde erfolgreich bewältigt. Alle Ziele wurden erreicht, darunter die Konzeption, Modellierung und Simulation eines industriellen Dampferzeugungsprozesses. Es wurde untersucht, wie sich die Integration einer Wärmepumpe oder einer Solarthermie auf den Gasverbrauch auswirkt. Dabei hat sich herausgestellt, dass … <p/>
+    <p>Die gestellte Aufgabe wurde erfolgreich bewältigt. Alle Ziele wurden erreicht, darunter die Konzeption, Modellierung und Simulation eines industriellen Dampferzeugungsprozesses. Es wurde untersucht, wie sich die Integration einer Wärmepumpe oder einer Solarthermie auf den Gasverbrauch auswirkt. Dabei hat sich herausgestellt, dass … <p/>
 
 <p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen. Es wurde auch angenommen, dass eine vollständige Verbrennung in der Brennkammer stattfindet und dass im System keine Wärme- und Druckverluste auftreten. Präzisere Annahmen könnten zu genaueren Ergebnissen führen, die die Realität besser widerspiegeln. Die Annahme, dass Erdgas ausschließlich aus reinem Methan besteht, ist ebenfalls unrealistisch. Erdgas besteht aus verschiedenen Komponenten. Ein interessanter Ansatz wäre es auch zu untersuchen, welchen Einfluss eine aktive Beimischung von Wasserstoff hat. Hier besteht das Potenzial, den CO2-Fußabdruck zu reduzieren. Auch die Möglichkeit der Erdgasvorwärmung könnte betrachtet werden, um die Effizienz zu steigern. Es gibt also noch viel Potenzial, um ein stark realitätsnahes Modell zu entwickeln.
-</p>
+<p/>
         </section>
    
 <footer>

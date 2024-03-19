@@ -72,7 +72,7 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 </table>
 
 <!-- Tabelle 2 -->
-
+<p>Die Ausgangswerte für den Prozess sind in Tabelle 2 dargestellt.</p>
 
 <table>
     <table id="tabelle-ausgangswerte">

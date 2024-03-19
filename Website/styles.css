@@ -36,6 +36,22 @@ caption {
     text-align: left; /* Ausrichtung der Tischbeschriftung nach links */
 }
 
+/* Verringert den Abstand zwischen einem Absatz und der folgenden Tabelle */
+p + table {
+    margin-top: 10px; /* Reduziert den oberen Abstand der Tabelle, wenn sie direkt auf einen Paragraphen folgt */
+}
+
+/* Optimiert den Abstand für die Tabellenbeschriftung */
+caption {
+    margin-bottom: 5px; /* Reduziert den Abstand zwischen der Beschriftung und der Tabelle */
+}
+
+/* Allgemeine Anpassungen für Tabellen */
+table {
+    margin-bottom: 20px; /* Definiert den Abstand nach einer Tabelle, um die Lesbarkeit zu verbessern */
+}
+
+
 /* Navigationsleiste */
 nav {
     background-color: #0056b3; /* Hintergrundfarbe der Navigationsleiste */

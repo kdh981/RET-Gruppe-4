@@ -231,7 +231,9 @@
     <footer>
         <div class="footer-content">
             <p>Gruppenarbeit Gruppe-4 © 2024</p>
-            <p>Kontakt: info@gruppe4.de</p>
+            <p>Kontakt: kaya.davy.halbleib@tu‐berlin.de</p>
+             <p>alexbreousch@gmail.com</p>
+             <p>huangkuanhsiang@gmail.com</p>
         </div>
     </footer>
 <!-- </body> 

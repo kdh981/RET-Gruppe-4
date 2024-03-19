@@ -90,9 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333; /* Dunklere Schriftfarbe für Überschriften */
 }
 
-/* Wenn der Hintergrund des body nicht blau sein soll, entferne den background-color Stil vom body und setze ihn stattdessen hier */
-/*
+
 header, footer {
     background-color: #e0ebf9;
 }
-*/

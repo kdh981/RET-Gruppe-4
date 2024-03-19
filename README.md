@@ -212,7 +212,7 @@
   </tbody>
 </table>
 
-     
+          </section>
         <section id="ergebnisse">
             <h2>Ergebnisse</h2>
             <p>Darstellung der Ergebnisse...</p/>

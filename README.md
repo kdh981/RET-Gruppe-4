@@ -219,8 +219,11 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
             <p>Zukünftige Betrachtungen und Verbesserungen...</p>
         </section>
    
-   <footer>
+<footer>
+    <div class="footer-content">
         <p>Gruppenarbeit Gruppe-4 © 2024</p>
-        
+        <p>Kontakt: info@gruppe4.de</p>
+    </div>
 </footer>
+
 

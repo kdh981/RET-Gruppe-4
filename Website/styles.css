@@ -100,7 +100,7 @@ footer {
 }
 
 footer p {
-    margin: 10px 0; /* Vertikaler Abstand zwischen den Paragraphen im Fußbereich */
+    margin: 0; /* Vertikaler Abstand zwischen den Paragraphen im Fußbereich */
 }
 
 /* Stil für Überschriften */

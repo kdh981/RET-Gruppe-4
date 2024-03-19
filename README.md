@@ -186,6 +186,7 @@
 </table>
 
 <!-- Tabelle 5 -->
+<p>Der mechanisch-elektrischer Wirkungsgrad, sowie der rein mechanischer Wirkungsgrad ist für den Generator in Tabelle 5 aufgeführt.</p>
 <table>
       <table id="tabelle-generatoren">
   <caption>Tabelle 5: Generatoren</caption>

@@ -156,6 +156,7 @@
 </table>
 
 <!-- Tabelle 4 -->
+<p>In Tabelle 4 sind die Rahmenbedinungen für die Pumpen aufgeführt, die in den Modellen verwendet werden.</p>
 
 <table>
     <table id="tabelle-pumpen">

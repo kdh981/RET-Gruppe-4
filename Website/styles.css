@@ -6,6 +6,11 @@ body {
     /*background-color: #e0ebf9; /* Blauer Hintergrund für den gesamten body */
 }
 
+p {
+    text-align: justify; /* Sorgt dafür, dass auch Absätze im Blocksatz erscheinen */
+    text-justify: inter-word; /* Verbessert den Blocksatz, indem der Abstand zwischen Wörtern angepasst wird */
+}
+
 /* Styling für die Tabellen */
 /* Allgemeines Styling für Tabellen */
 table {

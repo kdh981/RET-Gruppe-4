@@ -70,10 +70,10 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
     </tr>
   </tbody>
 </table>
-
+<p> 
+</p>
 <!-- Tabelle 2 -->
 <p>Die Ausgangswerte für den Prozess sind in Tabelle 2 dargestellt.</p>
-
 <table>
     <table id="tabelle-ausgangswerte">
   <caption>Tabelle 2: Ausgangswerte</caption>
@@ -115,6 +115,7 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
 </table>
 
 <!-- Tabelle 3 -->
+<p>In Tabelle 3 sind die Rahmenbedinungen für die Gasturbine aufgeführt.</p>
 
 <table>
     <table id="tabelle-gasturbine">

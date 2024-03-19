@@ -35,6 +35,7 @@ In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt di
             <p>Vorgaben und Annahmen:
             <p>
 
+            <p> Für das Modell sind die Zielwerte in Tablle 1 zusammengefasst. Diese Zielwerte werden in den erstellten Modellen immer erreicht. 
 <!-- Tabelle 1 -->
 
 

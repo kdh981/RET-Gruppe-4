@@ -205,12 +205,11 @@
             <p>Darstellung der Ergebnisse...</p>
 
 <!-- Tabelle 6 -->
- <caption>Tabelle 6: Zielwerte Vergleichen</caption>
 <div class="table-container">
     <!-- Ebsilon Tabelle -->
     <div class="table-half">
         <table>
-            <caption>Ebsilon</caption>
+            <caption>Tabelle 6: Zielwerte Vergleichen (Ebsilon)</caption>
             <thead>
                 <tr>
                     <th>Stoff</th>

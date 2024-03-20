@@ -207,11 +207,6 @@
 <!-- Tabelle 6 -->
 <table id="tabelle-generatoren">
     <caption>Tabelle 6: Ergebnisse Vergleichen</caption>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabellen</title>
-    <style>
         table {
             border-collapse: collapse;
             margin-bottom: 20px;
@@ -298,7 +293,6 @@
         </div>
     </div>
 </body>
-</html>
 
             
         </section>

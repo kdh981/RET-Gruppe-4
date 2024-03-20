@@ -137,33 +137,33 @@ c11.set_attr(p=1)
 cmp_pmp1.set_attr(eta_s=0.8)
 cmp_eco1.set_attr(pr1=1, pr2=1)
 cmp_eva1.set_attr(pr1=1)
-#cmp_heatex1.set_attr(pr=1/41)
+cmp_heatex1.set_attr(pr=1/41)
 
 #data Evaporator nr.1 connections
 D11.set_attr(m=25, fluid=water)
 D12.set_attr(p=41)
 D13.set_attr(h=CPSI('H', 'Q', 0, 'P', 40*1e5, 'water')/1e3)
 D15.set_attr(h=CPSI('H', 'Q', 1, 'P', 40*1e5, 'water')/1e3)
-D17.set_attr(p=1)
+#D17.set_attr(p=1)
 
 #components Data Evaporator nr.2
 cmp_pmp2.set_attr(eta_s=0.8)
 cmp_eco2.set_attr(pr1=1, pr2=1)
 cmp_eva2.set_attr(pr1=1)
-#cmp_heatex2.set_attr(pr=1/15)
-#
+cmp_heatex2.set_attr(pr=1/15)
+
 #data Evaporator nr.2 connections
 D21.set_attr(m=100)
 D22.set_attr(p=15)
 D23.set_attr(h=CPSI('H', 'Q', 0, 'P', 14*1e5, 'water')/1e3)
 D25.set_attr(h=CPSI('H', 'Q', 1, 'P', 14*1e5, 'water')/1e3)
-D27.set_attr(p=1)
+#D27.set_attr(p=1)
 
 #components Data Evaporator nr.3
 cmp_pmp3.set_attr(eta_s=0.8)
 cmp_eco3.set_attr(pr1=1, pr2=1)
 cmp_eva3.set_attr(pr1=1)
-#cmp_heatex3.set_attr(pr=1/5)
+cmp_heatex3.set_attr(pr=1/5)
 
 #data Evaporator nr.3 connections
 #D31.set_attr()

@@ -48,7 +48,9 @@ p + table {
 
 .table-half {
     width: 48%; /* Platz für zwei Tabellen */
+    margin-right: 2%; /* Anpassen des Seitenabstands zwischen den Tabellen */
 }
+
 
 /* Stelle sicher, dass die Tabellen nicht zu schmal werden */
 @media (max-width: 768px) {

@@ -1,133 +1,113 @@
 /* Allgemeine Einstellungen */
 body {
-    font-family: Arial, sans-serif; /* Schriftart für die gesamte Webseite */
-    line-height: 1.6; /* Zeilenhöhe für einen besseren Textfluss */
-    text-align: justify; /* Stellt den Text im Blocksatz dar */
-    /* Der Hintergrundfarbe-Kommentar ist korrigiert. */
-    /* background-color: #e0ebf9; */ /* Optional: Blauer Hintergrund für den gesamten Body, momentan auskommentiert */
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    text-align: justify; 
 }
 
 p {
-    text-align: justify; /* Ermöglicht Blocksatz für alle Absätze */
-    text-justify: inter-word; /* Verbessert Blocksatz durch Anpassung des Wortabstands */
+    text-align: justify; 
+    text-justify: inter-word; 
 }
 
 /* Styling für die Tabellen */
 table {
-    width: 80%; /* Setzt die Breite aller Tabellen auf 80% der Breite des Elternelements */
-    margin: 20px auto; /* Zentriert die Tabelle horizontal und fügt oben und unten einen Abstand hinzu */
-    border-collapse: collapse; /* Entfernt den Abstand zwischen den Zellen für eine einheitliche Darstellung */
+    width: 100%; /* Volle Breite für Tabellen */
+    margin-bottom: 20px; 
+    border-collapse: collapse; 
 }
 
 th, td {
-    padding: 10px; /* Fügt Innenabstand zu allen Zellen hinzu */
-    border: 1px solid #ccc; /* Definiert einen grauen Rahmen für die Zellen */
-    text-align: left; /* Textausrichtung innerhalb der Zellen */
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
 }
 
 th {
-    background-color: #e0ebf9; /* Hintergrundfarbe für Kopfzeilen */
-    color: #333; /* Textfarbe für Kopfzeilen */
+    background-color: #e0ebf9; 
+    color: #333; 
 }
 
 caption {
-    margin-bottom: 10px; /* Abstand zwischen Beschriftung und Tabelle */
-    font-weight: bold; /* Macht den Beschriftungstext fett */
-    text-align: left; /* Ausrichtung der Tischbeschriftung nach links */
+    margin-bottom: 5px; /* Geringerer Abstand für Tabellenbeschriftungen */
+    font-weight: bold; 
+    text-align: left; 
 }
 
 /* Verringert den Abstand zwischen einem Absatz und der folgenden Tabelle */
 p + table {
-    margin-top: 10px; /* Reduziert den oberen Abstand der Tabelle, wenn sie direkt auf einen Paragraphen folgt */
+    margin-top: 10px; 
 }
 
-/* Optimiert den Abstand für die Tabellenbeschriftung */
-caption {
-    margin-bottom: 5px; /* Reduziert den Abstand zwischen der Beschriftung und der Tabelle */
-}
-
-/* Allgemeine Anpassungen für Tabellen */
-table {
-    margin-bottom: 20px; /* Definiert den Abstand nach einer Tabelle, um die Lesbarkeit zu verbessern */
-}
-
+/* Zwei Tabellen nebeneinander */
 .table-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    flex-wrap: wrap; /* Umbruch für kleine Bildschirme */
 }
 
 .table-half {
-    width: 48%; /* Etwas weniger als die Hälfte, um Platz zwischen den Tabellen zu lassen */
-    margin-right: 1%; /* Kleiner Abstand zwischen den Tabellen, falls nötig */
+    width: 48%; /* Platz für zwei Tabellen */
 }
 
 /* Stelle sicher, dass die Tabellen nicht zu schmal werden */
 @media (max-width: 768px) {
     .table-half {
-        width: 100%;
-        margin-right: 0;
+        width: 100%; /* Volle Breite für kleine Bildschirme */
     }
 }
 
-
 /* Navigationsleiste */
 nav {
-    background-color: #0056b3; /* Hintergrundfarbe der Navigationsleiste */
+    background-color: #0056b3; 
 }
 
 nav ul {
-    list-style-type: none; /* Entfernt Aufzählungszeichen */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Verhindert Überlauf */
+    overflow: hidden; 
 }
 
 nav ul li {
-    float: left; /* Platziert die Listenelemente nebeneinander */
+    float: left; 
 }
 
 nav ul li a {
     display: block;
-    color: white; /* Textfarbe für Links */
+    color: white; 
     text-align: center;
-    padding: 14px 16px; /* Außenabstand für Links */
-    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+    padding: 14px 16px; 
+    text-decoration: none; 
 }
 
 nav ul li a:hover {
-    background-color: #003d7a; /* Hintergrundfarbe beim Überfahren der Links */
+    background-color: #003d7a; 
 }
 
-/* Zusätzliche Anpassungen für die Reiter */
 nav ul li a:active,
 nav ul li a:focus {
-    background-color: #004c99; /* Hintergrundfarbe für aktive oder fokussierte Links */
+    background-color: #004c99; 
 }
 
 /* Stile für den Fußbereich */
 footer {
-    background-color: #0056b3; /* Hintergrundfarbe des Fußbereichs */
-    color: white; /* Textfarbe im Fußbereich */
-    text-align: center; /* Zentriert den Text im Fußbereich */
-    padding: 2px 0; /* Außenabstand oben und unten im Fußbereich */
+    background-color: #0056b3; 
+    color: white; 
+    text-align: center; 
+    padding: 2px 0; 
 }
 
 .footer-content {
     margin: auto;
-    width: 80%; /* Breite des Inhalts im Fußbereich */
+    width: 80%; 
 }
 
 footer p {
-    margin: 0; /* Vertikaler Abstand zwischen den Paragraphen im Fußbereich */
+    margin: 0; 
 }
 
 /* Stil für Überschriften */
 h1, h2, h3, h4, h5, h6 {
-    color: #333; /* Dunkle Schriftfarbe für Überschriften */
+    color: #333; 
 }
-
-/* Optionaler Stil für den Header, momentan auskommentiert */
-/*header {
-    background-color: #ffffff;
-}*/

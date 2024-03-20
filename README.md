@@ -203,6 +203,104 @@
         <section id="ergebnisse">
             <h2>Ergebnisse</h2>
             <p>Darstellung der Ergebnisse...</p>
+
+<!-- Tabelle 6 -->
+<table id="tabelle-generatoren">
+    <caption>Tabelle 6: Ergebnisse Vergleichen</caption>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabellen</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;">
+        <div style="flex: 1;">
+            <table>
+                <caption>Ebsilon</caption>
+                <thead>
+                    <tr>
+                        <th>Stoff</th>
+                        <th>Ergebnis</th>
+                        <th>Einheit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Modell 1</td>
+                        <td>Gas CH4</td>
+                        <td>69,3</td>
+                        <td>kg/s</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Luftzahl Lamda</td>
+                        <td>1,05</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Modell 2 (Gas + ST)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Modell 3 (Gas + WP)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="flex: 1;">
+            <table>
+                <caption>TESPy</caption>
+                <thead>
+                    <tr>
+                        <th>Stoff</th>
+                        <th>Ergebnis</th>
+                        <th>Einheit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Modell 1</td>
+                        <td>Gas CH4</td>
+                        <td>kg/s</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Luftzahl Lamda</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Modell 2 (Gas + ST)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Modell 3 (Gas + WP)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+            
         </section>
 
         <!-- Ausblick -->

@@ -245,7 +245,7 @@
     <!-- TESPy Tabelle -->
     <div class="table-half">
         <table>
-            <caption>TESPy</caption>
+            <caption>(TESPy)</caption>
             <thead>
                 <tr>
                     <th>Stoff</th>

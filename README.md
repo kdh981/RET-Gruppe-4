@@ -11,7 +11,7 @@
     <!-- Kopfbereich der Webseite -->
     <header>
         <div class="container">
-            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100"></h1>
+            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="1000"></h1>
             <!-- Navigationsleiste -->
             <nav>
                 <ul>

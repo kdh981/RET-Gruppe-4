@@ -51,6 +51,25 @@ table {
     margin-bottom: 20px; /* Definiert den Abstand nach einer Tabelle, um die Lesbarkeit zu verbessern */
 }
 
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.table-half {
+    width: 48%; /* Etwas weniger als die Hälfte, um Platz zwischen den Tabellen zu lassen */
+    margin-right: 1%; /* Kleiner Abstand zwischen den Tabellen, falls nötig */
+}
+
+/* Stelle sicher, dass die Tabellen nicht zu schmal werden */
+@media (max-width: 768px) {
+    .table-half {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
 
 /* Navigationsleiste */
 nav {

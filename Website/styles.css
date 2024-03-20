@@ -91,7 +91,7 @@ footer {
     background-color: #0056b3; /* Hintergrundfarbe des Fußbereichs */
     color: white; /* Textfarbe im Fußbereich */
     text-align: center; /* Zentriert den Text im Fußbereich */
-    padding: 20px 0; /* Außenabstand oben und unten im Fußbereich */
+    padding: 2px 0; /* Außenabstand oben und unten im Fußbereich */
 }
 
 .footer-content {

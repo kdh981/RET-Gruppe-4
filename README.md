@@ -11,7 +11,7 @@
     <!-- Kopfbereich der Webseite -->
     <header>
         <div class="container">
-            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="1000"></h1>
+            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100"></h1>
             <!-- Navigationsleiste -->
             <nav>
                 <ul>
@@ -38,7 +38,7 @@
             <h2>Aufbau des Modells</h2>
            
            <p>Für das einfachste Modell mit reiner Erdgasverbrennung wird eine schematische Darstellung in Abbildung 1 präsentiert. Hier ist der Aufbau zu erkennen, an dem sich die Modellierungen orientieren. Für <em>Ebsilon Professional</em> wird dieser Aufbau übertragen, da es hauptsächlich eine graphische Oberfläche für den Aufbau des Modells nutzt. Es müssen noch Regler und Startwerte ergänzt werden, um das Modell zu vervollständigen. Hierdurch wird ein voll funktionsfähiges Modell zur Berechnung des Gasverbrauchs ermöglicht. </p>
-<img src="images/Fließbild.PNG" width="100">
+<img src="images/Fließbild.PNG" width="1000">
            
 <p>Auf der anderen Seite wiederum steht das Modell in <em>TESPy</em> (<em>engl.: Thermal Engineering Systems in Python</em>), eine leistungsfähige Bibliothek zur Simulation thermodynamischer Kreisprozesse, die speziell für die Anwendung in Python entwickelt wurde. Mit ihr können Nutzer komplexe thermische Anlagen, wie Dampferzeuger, durch die Definition einzelner Komponenten und deren Verbindungen präzise modellieren. Diese Modellierungsfähigkeit macht TESPy besonders wertvoll für die Entwicklung und das Design von Dampferzeugersystemen, indem es ermöglicht, verschiedene Konfigurationen und Betriebsbedingungen effizient zu simulieren und zu bewerten.</p>
 

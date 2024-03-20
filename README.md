@@ -46,177 +46,156 @@
             <!-- Tabelle 1: Zielwerte -->
             <p>Für das Modell sind die Zielwerte in Tabelle 1 zusammengefasst. Diese Zielwerte werden in den erstellten Modellen immer erreicht.</p>
             <table id="tabelle-zielwerte">
-                <caption>Tabelle 1: Zielwerte</caption>
-                <thead>
-                    <tr>
-                        <th>Parameter</th>
-                        <th>Symbol</th>
-                        <th>Einheit</th>
-                        <th>Wert</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Hochdruckdampf</td>
-                        <td>p<sub>H</sub>; m&#775;</td>
-                        <td>bar; t/h</td>
-                        <td>40 bar; 90 t/h</td>
-                    </tr>
-                    <tr>
-                        <td>Mitteldruckdampf</td>
-                        <td>p<sub>M</sub>; m&#775;</td>
-                        <td>bar; t/h</td>
-                        <td>14 bar; 360 t/h</td>
-                    </tr>
-                    <tr>
-                        <td>Niederdruckdampf</td>
-                        <td>p<sub>N</sub>; m&#775;</td>
-                        <td>bar; t/h</td>
-                        <td>4 bar; 900 t/h</td>
-                    </tr>
-                </tbody>
-            </table>
+  <caption>Tabelle 1: Zielwerte</caption>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hochdruckdampf</td>
+      <td>p<sub>H</sub>; m&#775;</td>
+      <td>40 bar; 90 t/h</td>
+    </tr>
+    <tr>
+      <td>Mitteldruckdampf</td>
+      <td>p<sub>M</sub>; m&#775;</td>
+      <td>14 bar; 360 t/h</td>
+    </tr>
+    <tr>
+      <td>Niederdruckdampf</td>
+      <td>p<sub>N</sub>; m&#775;</td>
+      <td>4 bar; 900 t/h</td>
+    </tr>
+  </tbody>
+</table>
+
 
            <!-- Tabelle 2 -->
 <p>Die Ausgangswerte für den Prozess sind in Tabelle 2 dargestellt.</p>
 <table id="tabelle-ausgangswerte">
     <caption>Tabelle 2: Ausgangswerte</caption>
-  
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Symbol</th>
-      <th>Einheit</th>
-      <th>Wert</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Druckverlust</td>
-      <td>pDV</td>
-      <td>bar</td>
-      <td>1 bar</td>
-    </tr>
-    <tr>
-      <td>Erdgas</td>
-      <td>pEG; TEG</td>
-      <td>bar; °C</td>
-      <td>30 bar; 15 °C</td>
-    </tr>
-    <tr>
-      <td>Luft</td>
-      <td>pLuft; Tluft</td>
-      <td>bar; °C</td>
-      <td>1 bar; 15 °C</td>
-    </tr>
-    <tr>
-      <td>Luftzusammensetzung</td>
-      <td>x</td>
-      <td>-</td>
-      <td>N2: 0,79; O2: 0,21</td>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Symbol</th>
+            <th>Wert</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Druckverlust</td>
+            <td>pDV</td>
+            <td>1 bar</td>
+        </tr>
+        <tr>
+            <td>Erdgas</td>
+            <td>pEG; TEG</td>
+            <td>30 bar; 15 °C</td>
+        </tr>
+        <tr>
+            <td>Luft</td>
+            <td>pLuft; Tluft</td>
+            <td>1 bar; 15 °C</td>
+        </tr>
+        <tr>
+            <td>Luftzusammensetzung</td>
+            <td>x</td>
+            <td>N2: 0,79; O2: 0,21</td>
+        </tr>
+    </tbody>
 </table>
+
 
 <!-- Tabelle 3 -->
 <p>In Tabelle 3 sind die Rahmenbedingungen für die Gasturbine aufgeführt.</p>
 <table id="tabelle-gasturbine">
     <caption>Tabelle 3: Gasturbinen</caption>
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Symbol</th>
-      <th>Einheit</th>
-      <th>Wert</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>isentroper Verdichterwirkungsgrad</td>
-      <td>&eta;<sub>is,Verdichter</sub></td>
-      <td>-</td>
-      <td>90%</td>
-    </tr>
-    <tr>
-      <td>maximale Feuerungstemperatur</td>
-      <td>T<sub>max_BK</sub></td>
-      <td>°C</td>
-      <td>1600 °C</td>
-    </tr>
-    <tr>
-      <td>isentroper Expanderwirkungsgrad</td>
-      <td>&eta;<sub>is,Expander</sub></td>
-      <td>-</td>
-      <td>90%</td>
-    </tr>
-    <tr>
-      <td>mechanischer Wirkungsgrad</td>
-      <td>&eta;<sub>m</sub></td>
-      <td>-</td>
-      <td>99%</td>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Symbol</th>
+            <th>Wert</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>isentroper Verdichterwirkungsgrad</td>
+            <td>&eta;<sub>is,Verdichter</sub></td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>maximale Feuerungstemperatur</td>
+            <td>T<sub>max_BK</sub></td>
+            <td>1600 °C</td>
+        </tr>
+        <tr>
+            <td>isentroper Expanderwirkungsgrad</td>
+            <td>&eta;<sub>is,Expander</sub></td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>mechanischer Wirkungsgrad</td>
+            <td>&eta;<sub>m</sub></td>
+            <td>99%</td>
+        </tr>
+    </tbody>
 </table>
+
 
 <!-- Tabelle 4 -->
 <p>In Tabelle 4 sind die Rahmenbedinungen für die Pumpen aufgeführt, die in den Modellen verwendet werden.</p>
-<table>
-    <table id="tabelle-pumpen">
-  <caption>Tabelle 4: Pumpen</caption>
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Symbol</th>
-      <th>Einheit</th>
-      <th>Wert</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>isentroper Wirkungsgrad</td>
-      <td>&eta;<sub>is</sub></td>
-      <td>-</td>
-      <td>80%</td>
-    </tr>
-    <tr>
-      <td>mechanischer Wirkungsgrad</td>
-      <td>&eta;<sub>m</sub></td>
-      <td>-</td>
-      <td>99%</td>
-    </tr>
-  </tbody>
+<table id="tabelle-pumpen">
+    <caption>Tabelle 4: Pumpen</caption>
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Symbol</th>
+            <th>Wert</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>isentroper Wirkungsgrad</td>
+            <td>&eta;<sub>is</sub></td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>mechanischer Wirkungsgrad</td>
+            <td>&eta;<sub>m</sub></td>
+            <td>99%</td>
+        </tr>
+    </tbody>
 </table>
+
 
 <!-- Tabelle 5 -->
 <p>Der mechanisch-elektrischer Wirkungsgrad sowie der rein mechanische Wirkungsgrad ist für den Generator in Tabelle 5 aufgeführt.</p>
 <table id="tabelle-generatoren">
     <caption>Tabelle 5: Generatoren</caption>
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Symbol</th>
-      <th>Einheit</th>
-      <th>Wert</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>mechanisch-elektrischer Wirkungsgrad</td>
-      <td>&eta;<sub>m-el</sub></td>
-      <td>-</td>
-      <td>98,50%</td>
-    </tr>
-    <tr>
-      <td>mechanischer Wirkungsgrad</td>
-      <td>&eta;<sub>m</sub></td>
-      <td>-</td>
-      <td>100%</td>
-    </tr>
-  </tbody>
-</table>
-
-
-        
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Symbol</th>
+            <th>Wert</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>mechanisch-elektrischer Wirkungsgrad</td>
+            <td>&eta;<sub>m-el</sub></td>
+            <td>98,50%</td>
+        </tr>
+        <tr>
+            <td>mechanischer Wirkungsgrad</td>
+            <td>&eta;<sub>m</sub></td>
+            <td>100%</td>
+        </tr>
+    </tbody>
+</table>     
 
         <!-- Ergebnisse -->
         <section id="ergebnisse">

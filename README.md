@@ -29,7 +29,7 @@
         <!-- Einleitungsbereich -->
         <section id="einleitung">
             <h2>Einleitung und Aufgabenstellung</h2>
-            <p>Für das Modul Vertiefendes Rechnerpraktikum zur Energietechnik ist das Ziel, einen industriellen Dampferzeugungsprozess zu entwerfen, modellieren und zu simulieren. Dafür wird das Programm TESPy und Ebsilon verwendet.</p>
+            <p>Für das Modul Vertiefendes Rechnerpraktikum zur Energietechnik ist das Ziel, einen industriellen Dampferzeugungsprozess zu entwerfen, modellieren und zu simulieren. Dafür wird das Programm <em>TESPy</em> und <em>Ebsilon</em> verwendet.</p>
             <p>In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt diese in einer Brennkammer, um die benötigten Dampfstufen zu erreichen. Es ist eine Gasturbine zwischen der Brennkammer und den Wärmetauscher geschaltet, um elektrische Energie zu erzeugen und die hohen Temperaturen der Abwärme sinnvoll zu nutzen. In weiteren Modellen wird eine Einbindung einer Wärmepumpe sowie solarthermischer Energie betrachtet und diskutiert, ob dies eine sinnvolle Möglichkeit ist, den Kohlendioxid: CO&#8322;-Ausstoß zu reduzieren.</p>
         </section>
 
@@ -40,7 +40,7 @@
            <p>Für das einfachste Modell mit reiner Erdgasverbrennung wird eine schematische Darstellung in Abbildung 1 präsentiert. Hier ist der Aufbau zu erkennen, an dem sich die Modellierungen orientieren. Für <em>Ebsilon Professional</em> wird dieser Aufbau übertragen, da es hauptsächlich eine graphische Oberfläche für den Aufbau des Modells nutzt. Es müssen noch Regler und Startwerte ergänzt werden, um das Modell zu vervollständigen. Hierdurch wird ein voll funktionsfähiges Modell zur Berechnung des Gasverbrauchs ermöglicht. </p>
 <img src="images/Fließbild.PNG" width="1000">
            
-<p>Auf der anderen Seite wiederum steht das Modell in <em>TESPy</em> (<em>engl.: Thermal Engineering Systems in Python</em>), eine leistungsfähige Bibliothek zur Simulation thermodynamischer Kreisprozesse, die speziell für die Anwendung in Python entwickelt wurde. Mit ihr können Nutzer komplexe thermische Anlagen, wie Dampferzeuger, durch die Definition einzelner Komponenten und deren Verbindungen präzise modellieren. Diese Modellierungsfähigkeit macht TESPy besonders wertvoll für die Entwicklung und das Design von Dampferzeugersystemen, indem es ermöglicht, verschiedene Konfigurationen und Betriebsbedingungen effizient zu simulieren und zu bewerten.</p>
+<p>Auf der anderen Seite wiederum steht das Modell in <em>TESPy</em> (<em>engl.: Thermal Engineering Systems in Python</em>), eine leistungsfähige Bibliothek zur Simulation thermodynamischer Kreisprozesse, die speziell für die Anwendung in Python entwickelt wurde. Mit ihr können Nutzer komplexe thermische Anlagen, wie Dampferzeuger, durch die Definition einzelner Komponenten und deren Verbindungen präzise modellieren. Diese Modellierungsfähigkeit macht <em>TESPy</em> besonders wertvoll für die Entwicklung und das Design von Dampferzeugersystemen, indem es ermöglicht, verschiedene Konfigurationen und Betriebsbedingungen effizient zu simulieren und zu bewerten.</p>
 
 <p> 
 </p>

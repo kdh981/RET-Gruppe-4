@@ -113,3 +113,9 @@ footer p {
 h1, h2, h3, h4, h5, h6 {
     color: #333; 
 }
+
+/* Stil für Bildunterschriften */
+figcaption {
+    font-weight: bold; /* Macht den Text fett */
+}
+

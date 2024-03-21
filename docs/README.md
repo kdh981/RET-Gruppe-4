@@ -44,7 +44,12 @@
  <p style="margin-bottom: 30px;"></p>   <!-- Absatnd zum Text unten -->
  
 <p>Auf der anderen Seite wiederum steht das Modell in <em>TESPy</em> (<em>engl.: Thermal Engineering Systems in Python</em>), eine leistungsfähige Bibliothek zur Simulation thermodynamischer Kreisprozesse, die speziell für die Anwendung in Python entwickelt wurde. Mit ihr können Nutzer komplexe thermische Anlagen, wie Dampferzeuger, durch die Definition einzelner Komponenten und deren Verbindungen präzise modellieren. Diese Modellierungsfähigkeit macht <em>TESPy</em> besonders wertvoll für die Entwicklung und das Design von Dampferzeugersystemen, indem es ermöglicht, verschiedene Konfigurationen und Betriebsbedingungen effizient zu simulieren und zu bewerten.</p>
- <img src="../images/Solar.png" width="400"> <img src="../images/Wärmepumpe.png" width="400">
+ 
+    <div style="display: flex;">
+        <img src="../images/Solar.png" alt="Bild 1" style="width: 50%; height: auto;">
+        <img src="../images/Wärmepumpe.png" alt="Bild 2" style="width: 50%; height: auto;">
+    </div>
+
             <p>
                 <figcaption class="caption-class">Abbildung 2: Fließbild mit Solarthermie zuschaltung und Fließbild mit zusätzlicher Wärmepumpe.</figcaption>
 

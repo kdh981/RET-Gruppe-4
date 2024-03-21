@@ -6,6 +6,7 @@
     <title>Gruppenarbeit Gruppe-4</title>
     <!-- Verknüpfung mit der CSS-Datei -->
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <!-- Kopfbereich der Webseite -->

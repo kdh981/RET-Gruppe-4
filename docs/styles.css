@@ -59,6 +59,16 @@ p + table {
     }
 }
 
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 50%; /* Oder eine andere Breite, je nach Bedarf */
+    height: auto; /* Damit das Bild sein Seitenverhältnis beibehält */
+}
+
+
 /* Navigationsleiste */
 nav {
     background-color: #0056b3; 

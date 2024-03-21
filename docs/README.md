@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gruppenarbeit Gruppe-4</title>
     <!-- Verknüpfung mit der CSS-Datei -->
-    <link rel="stylesheet" href="../docs/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Kopfbereich der Webseite -->

@@ -13,13 +13,9 @@
         <div class="container">
             <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100"></h1>
 
-    <!-- Hauptinhalt -->
-    <div class="container">
-        <!-- Einleitungsbereich -->
-        <section id="einleitung">
-            <h2>Einleitung und Aufgabenstellung</h2>
-            <p>Für weitere Informationen Bitte klicke auf diesen Link: https://kdh981.github.io/RET-Gruppe-4/.</p>
-        </section>
+ #Einleitung
+            Für weitere Informationen Bitte klicke auf diesen Link: https://kdh981.github.io/RET-Gruppe-4/.
+      
 
         <!-- Aufbau des Modells -->
         <section id="modell">

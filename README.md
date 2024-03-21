@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="Website/styles.css">
 </head>
 <body>
-
+    <!-- Kopfbereich der Webseite -->
+    <header>
+        <div class="container">
+            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100"></h1>
 
     <!-- Hauptinhalt -->
     <div class="container">

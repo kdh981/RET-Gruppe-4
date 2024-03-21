@@ -209,6 +209,7 @@
         <section id="ergebnisse">
             <h2>Ergebnisse</h2>
             <p>Darstellung der Ergebnisse...</p>
+            <img src="images/Solar.png" width="70">
 
 <!-- Tabelle 6 -->
 <div class="table-container">

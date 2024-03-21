@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gruppenarbeit Gruppe-4</title>
     <!-- Verknüpfung mit der CSS-Datei -->
     <link rel="stylesheet" href="Website/styles.css">
 </head>

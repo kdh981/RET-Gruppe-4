@@ -59,13 +59,16 @@ p + table {
     }
 }
 
-.image-container {
-    display: flex;
+.images-container {
+    display: flex; /* Aktiviert Flexbox für den Container */
+    justify-content: center; /* Zentriert die Bilder horizontal */
+    align-items: center; /* Zentriert die Bilder vertikal */
+    gap: 10px; /* Definiert einen Abstand zwischen den Bildern */
 }
 
-.image-container img {
-    width: 50%; /* Oder eine andere Breite, je nach Bedarf */
-    height: auto; /* Damit das Bild sein Seitenverhältnis beibehält */
+.images-container img {
+    max-width: 50%; /* Beschränkt die maximale Breite jedes Bildes auf 50% des Container */
+    height: auto; /* Stellt sicher, dass das Seitenverhältnis der Bilder erhalten bleibt */
 }
 
 

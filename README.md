@@ -8,29 +8,14 @@
     <link rel="stylesheet" href="Website/styles.css">
 </head>
 <body>
-    <!-- Kopfbereich der Webseite -->
-    <header>
-        <div class="container">
-            <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo.svg" width="100"></h1>
-            <!-- Navigationsleiste -->
-            <nav>
-                <ul>
-                    <li><a href="#einleitung">Einleitung und Aufgabenstellung</a></li>
-                    <li><a href="#modell">Aufbau des Modells</a></li>
-                    <li><a href="#ergebnisse">Ergebnisse</a></li>
-                    <li><a href="#ausblick">Ausblick</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+
 
     <!-- Hauptinhalt -->
     <div class="container">
         <!-- Einleitungsbereich -->
         <section id="einleitung">
             <h2>Einleitung und Aufgabenstellung</h2>
-            <p>Für das Modul Vertiefendes Rechnerpraktikum zur Energietechnik ist das Ziel, einen industriellen Dampferzeugungsprozess zu entwerfen, modellieren und zu simulieren. Dafür wird das Programm <em>TESPy</em> und <em>Ebsilon</em> verwendet.</p>
-            <p>In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt diese in einer Brennkammer, um die benötigten Dampfstufen zu erreichen. Es ist eine Gasturbine zwischen der Brennkammer und den Wärmetauscher geschaltet, um elektrische Energie zu erzeugen und die hohen Temperaturen der Abwärme sinnvoll zu nutzen. In weiteren Modellen wird eine Einbindung einer Wärmepumpe sowie solarthermischer Energie betrachtet und diskutiert, ob dies eine sinnvolle Möglichkeit ist, den CO&#8322;-Ausstoß zu reduzieren.</p>
+            <p>Für weitere Informationen Bitte klicke auf diesen Link: https://kdh981.github.io/RET-Gruppe-4/.</p>
         </section>
 
         <!-- Aufbau des Modells -->

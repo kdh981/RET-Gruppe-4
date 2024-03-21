@@ -20,7 +20,7 @@
 
     
     
-        <div class="footer-content">
+        <div>
             <p>Gruppenarbeit Gruppe-4 © 2024</p>
             <p>Kontakt: kaya.davy.halbleib@tu‐berlin.de</p>
              <p>alexbreousch@gmail.com</p>

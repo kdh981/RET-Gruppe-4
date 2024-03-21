@@ -90,7 +90,7 @@ gtsteamboiler.solve(mode='design')
 gtsteamboiler.print_results()
 
 c13.set_attr(m=None)
-cmp_econ2.set_attr(ttd_l=20)
+cmp_econ2.set_attr(ttd_u=20)
 
 gtsteamboiler.solve(mode='design')
 gtsteamboiler.print_results()

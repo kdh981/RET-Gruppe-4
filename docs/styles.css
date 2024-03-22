@@ -59,20 +59,6 @@ p + table {
     }
 }
 
-/* Theoretisch sollte das die Bilder aufteilen */
-.images-container {
-    display: flex; /* Aktiviert Flexbox für den Container */
-    justify-content: center; /* Zentriert die Bilder horizontal */
-    align-items: center; /* Zentriert die Bilder vertikal */
-    gap: 10px; /* Definiert einen Abstand zwischen den Bildern */
-}
-
-.images-container img {
-    max-width: 50%; /* Beschränkt die maximale Breite jedes Bildes auf 50% des Container */
-    height: auto; /* Stellt sicher, dass das Seitenverhältnis der Bilder erhalten bleibt */
-}
-
-
 /* Navigationsleiste */
 nav {
     background-color: #0056b3; 

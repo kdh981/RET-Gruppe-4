@@ -59,6 +59,7 @@ p + table {
     }
 }
 
+/* Theoretisch sollte das die Bilder aufteilen */
 .images-container {
     display: flex; /* Aktiviert Flexbox für den Container */
     justify-content: center; /* Zentriert die Bilder horizontal */

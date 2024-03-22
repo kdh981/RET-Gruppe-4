@@ -5,7 +5,7 @@ Das Ziel des Projekts ist es, ein Energiesystemmodell zu entwickeln, das flexibe
 
 Vor Beginn der eigentlichen Modellentwicklung werden fünf verschiedene Übungsaufgaben gelöst, um die mathematische Formulierung, insbesondere die Zielfunktion und die Nebenbedingungen, zu üben. Dabei geht es auch um die Reduktion des Optimierungsproblems sowie um den Einsatz verschiedener Optimierungstools und deren praktische Anwendung.
 
-Für mehr Informationen wie unser Modell aufgebaut ist, besucht gerne unsere [Internetwebseite]([URL](https://kdh981.github.io/RET-Gruppe-4/)).
+Für mehr Informationen wie unser Modell aufgebaut ist, besucht gerne unsere [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/).
 
 
 ## Installation

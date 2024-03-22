@@ -49,7 +49,7 @@
   <figcaption class="caption-class">Abbildung 1: Fließbild für das Modell 1 mit reiner Erdgasverbrennung.</figcaption> 
 <div class="images-container">
     <img src="Solar.png.png" alt="Abbildung 2: Fließbild mit Solarthermie zuschaltung.">
-    <img src="Wärmepumpe.png" alt="Abbildung 2: Fließbild mit zusätzlicher Wärmepumpe.">
+    <img src="Wärmepumpe.png" alt="Abbildung 3: Fließbild mit zusätzlicher Wärmepumpe.">
 </div>
 
 <p>Um zu erkennen ob zumindest theoretisch der Erdgasverbrauch reduziert werden kann, werden zwei weitere Modelle entwickelt. Diese basieren auf dem Modell mit reiner Erdgasverbrennung. In <em> Modell 2</em> wird eine Solarthermie integriert. Dieser solarthermische Kreislauf fördert 500 t/h, bei 300 °C und 10 bar Thermoöl und entspricht etwa XXX thermische Energie. In Abbildung 2 ist die Integration der Solarthermie als Fließbild  dargestellt.</p>

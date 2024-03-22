@@ -5,7 +5,7 @@ Das Ziel des Projekts ist es, ein Energiesystemmodell zu entwickeln, das flexibe
 
 Vor Beginn der eigentlichen Modellentwicklung werden fünf verschiedene Übungsaufgaben gelöst, um die mathematische Formulierung, insbesondere die Zielfunktion und die Nebenbedingungen, zu üben. Dabei geht es auch um die Reduktion des Optimierungsproblems sowie um den Einsatz verschiedener Optimierungstools und deren praktische Anwendung.
 
-Die Übungsaufgaben und hilfreiche Literatur sind auf der ISIS-Seite https://isis.tu-berlin.de/course/view.php?id=36509 zu finden.
+Für mehr Informationen wie unser Modell aufgebaut ist, besucht unsere Internetwebseite https://kdh981.github.io/RET-Gruppe-4/ .
 
 ## Installation
 Es wird für eine funktionierende Modellierung eines Dampferzeugers TESPy benötigt. Dafür muss XXX instaliert werden; bla bla 

@@ -30,15 +30,17 @@
         <!-- Einleitungsbereich -->
         <section id="einleitung">
             <h2>Einleitung und Aufgabenstellung</h2>
-            <p>Für das Modul Vertiefendes Rechnerpraktikum zur Energietechnik ist das Ziel, einen industriellen Dampferzeugungsprozess zu entwerfen, modellieren und zu simulieren. Dafür wird das Programm <em>TESPy</em> und <em>Ebsilon</em> verwendet.</p>
-            <p>In der Grundvariante nutzt der modellierte Dampferzeuger Erdgas und verbrennt diese in einer Brennkammer, um die benötigten Dampfstufen zu erreichen. Es ist eine Gasturbine zwischen der Brennkammer und den Wärmetauscher geschaltet, um elektrische Energie zu erzeugen und die hohen Temperaturen der Abwärme sinnvoll zu nutzen. In weiteren Modellen wird eine Einbindung einer Wärmepumpe sowie solarthermischer Energie betrachtet und diskutiert, ob dies eine sinnvolle Möglichkeit ist, den CO&#8322;-Ausstoß zu reduzieren.</p>
+            <p>Im Rahmen des Moduls „Vertiefendes Rechnerpraktikum zur Energietechnik“ besteht das Ziel darin, einen industriellen Dampferzeugungsprozess zu entwerfen, zu modellieren und zu simulieren. Hierfür kommen die Programme <em>TESPy</em> und <em>Ebsilon</em> zum Einsatz.</p>
+            <p>Die Grundvariante des modellierten Dampferzeugers verwendet Erdgas, das in einer Brennkammer verbrannt wird, um die erforderlichen Dampfstufen zu erreichen. Eine Gasturbine ist zwischen der Brennkammer und dem Wärmetauscher positioniert, um elektrische Energie zu generieren und die hohe Temperatur der Abwärme effektiv zu nutzen. In weiterführenden Modellen erfolgt die Untersuchung der Integration einer Wärmepumpe sowie solarthermischer Energie. Dabei wird erörtert, inwieweit diese Integrationen eine sinnvolle Maßnahme zur Reduzierung des CO&#8322;-Ausstoßes darstellen können.</p>
+            
         </section>
 
         <!-- Aufbau des Modells -->
         <section id="modell">
             <h2>Aufbau des Modells</h2>
            
-           <p>Für das einfachste Modell mit reiner Erdgasverbrennung wird eine schematische Darstellung in Abbildung 1 präsentiert. Hier ist der Aufbau zu erkennen, an dem sich die Modellierungen orientieren. Für <em>Ebsilon Professional</em> wird dieser Aufbau übertragen, da es hauptsächlich eine graphische Oberfläche für den Aufbau des Modells nutzt. Es müssen noch Regler und Startwerte ergänzt werden, um das Modell zu vervollständigen. Hierdurch wird ein voll funktionsfähiges Modell zur Berechnung des Gasverbrauchs ermöglicht. </p>
+           <p>
+Für das Grundmodell mit ausschließlicher Erdgasverbrennung wird eine schematische Darstellung in Abbildung 1 gezeigt. Der dargestellte Aufbau dient als Orientierung für die Modellierung. Bei der Verwendung von </em>Ebsilon Professional</em> wird dieser Aufbau übernommen, da das Programm primär eine grafische Benutzeroberfläche für die Modellerstellung bietet. Um das Modell zu vervollständigen, sind die Ergänzung von Reglern und die Festlegung von Startwerten notwendig. Dies ermöglicht die Realisierung eines voll funktionsfähigen Modells für die Berechnung des Gasverbrauchs. </p>
 <img src="Fließbild.PNG" width="700">
   <figcaption class="caption-class">Abbildung 1: Fließbild für das Modell 1 mit reiner Erdgasverbrennung.</figcaption> 
  <p style="margin-bottom: 30px;"></p>   <!-- Absatnd zum Text unten -->

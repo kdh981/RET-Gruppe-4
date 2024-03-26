@@ -9,9 +9,8 @@ Für mehr Informationen wie unser Modell aufgebaut ist, besucht gerne unsere [In
 
 
 ## Installation
+TESPy ist eine Bibliothek zur Simulation und Berechnung thermodynamischer Kreisläufe und Prozesse. Sie ermöglicht Anwendern, maßgeschneiderte Lösungen für komplexe energietechnische Systeme, wie Kraftwerke, Wärmepumpen, etc. zu entwickeln, indem sie eine flexible und intuitive Modellierungsumgebung bietet.
 Es wird für eine funktionierende Modellierung eines Dampferzeugers TESPy benötigt. Dafür muss TESPy mit folgendem Befehl installiert werden:  
-
-Zur Modellbildung und Optimierung muss Pyomo und Python-Optimierungstools Gurobi installiert werden, die mit den folgenden Befehl installiert werden können:
 ```bash
 pip install tespy
 ```

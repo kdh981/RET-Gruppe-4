@@ -19,23 +19,23 @@ pip install CoolProp
 
 ## Modell: Dampferzeuger
 ### Fließbild
-Hier ist die Abbildung des einfachen modellierten Dampferzeugers, welches die Dampferzeugung rein über die Gasverbrennung bereitstellt:
-<img src="docs/Fließbild.PNG" width="300">
+Hier sehen Sie die Abbildung des einfach modellierten Dampferzeugers, der die Dampferzeugung rein über Gasverbrennung ermöglicht:
+<img src="docs/Fließbild.PNG" width="500">
 
 ## Ergebnis
-Ziel ist ein funktionierendes Modell mit TESPy zu erstellen und drei verschiedene Varianten zu betrachten welche der drei Varianten theoretisch den niedrigsten Gasverrbauch aufweist. Das Modell gibt in Tabellenform die benötigen Informationen wieder. Welches Modell den niedrigsten Gas verbrauch aufweist kann man unter unsere [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/) gerne herausfinden.
+Das Ziel ist die Erstellung eines funktionierenden Modells mit TESPy, um drei verschiedene Varianten zu betrachten und festzustellen, welche theoretisch den niedrigsten Gasverbrauch aufweist. Das Modell gibt in Tabellenform die benötigten Informationen wieder. Welches Modell den niedrigsten Gasverbrauch aufweist, können Sie auf unserer [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/) nachlesen.
 
 ## Ausblick
-Es können weitere Verbesserungen des Codes und somit ein genaueres Modell erstellt werden, einige Verbesserungen können sein:
+Es sind weitere Verbesserungen des Codes möglich, um ein genaueres Modell zu erstellen. Einige Verbesserungsmöglichkeiten sind:
 
 ### Dynamische Betrachtung
-Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen, da in den bereits erstellten Modellen einige Vereinfachungen vorgenommen worden sind. Diese Annahmen beinhalten unteranderem konstante Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist.
+Eine dynamische Betrachtung könnte zu realistischeren Ergebnissen führen, da die bereits erstellten Modelle einige Vereinfachungen beinhalten. Diese umfassen unter anderem die Annahme konstanter Umgebungs-, Kühlwasser- und Erdgastemperaturen sowie die Prämisse, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist.
 
 ### Zukünftige Entwicklungen
-Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. 
+Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen operiert. 
 
 ### Elektrifizierung
-Intersannt könnte Btrachtung der Elektrifizierung des Dampferzeugers sein. Unter dem Motto Power to Heat. Hier könnte unter der einbindung verschiedener erneuerbaren Energien und ein e-Heizstab eine intersannte Möglichkeit sein den Gasverbrauch auf null zu reduzieren und dabei realistische Werte für den Strommarktpreis für das Modell zu verwenden. 
+Interessant könnte die Betrachtung der Elektrifizierung des Dampferzeugers sein, unter dem Motto „Power to Heat“. Die Einbindung verschiedener erneuerbarer Energien und eines Elektroheizstabes könnte eine interessante Möglichkeit sein, den Gasverbrauch auf null zu reduzieren, während realistische Werte für den Strommarktpreis im Modell verwendet werde
 
 
 

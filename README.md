@@ -9,12 +9,13 @@ Für mehr Informationen wie unser Modell aufgebaut ist, besucht gerne unsere [In
 
 
 ## Installation
-Es wird für eine funktionierende Modellierung eines Dampferzeugers TESPy benötigt. Dafür muss XXX instaliert werden; bla bla 
+Es wird für eine funktionierende Modellierung eines Dampferzeugers TESPy benötigt. Dafür muss TESPy mit folgendem Befehl installiert werden:  
 
-```bash
-pip install CoolProp
-```
 Zur Modellbildung und Optimierung muss Pyomo und Python-Optimierungstools Gurobi installiert werden, die mit den folgenden Befehl installiert werden können:
 ```bash
-pip install pyomo gurobipy
+pip install tespy
+```
+CoolProp ist eine Python-Bibliothek, die genaue Daten über thermodynamische Eigenschaften verschiedener Stoffe liefert. Sie ist besonders nützlich für Ingenieure, Wissenschaftler und studierende in verschiedenen Bereichen, wie Kraftwerkstechnik, Klimatechnik und Verfahrenstechnik, da sie umfassende Informationen für die Modellierung von Prozessen und die Analyse von Stoffeigenschaften bietet. Zur Modellbildung muss CoolProp installiert werden:
+```bash
+pip install CoolProp
 ```

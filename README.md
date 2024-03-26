@@ -10,3 +10,11 @@ Für mehr Informationen wie unser Modell aufgebaut ist, besucht gerne unsere [In
 
 ## Installation
 Es wird für eine funktionierende Modellierung eines Dampferzeugers TESPy benötigt. Dafür muss XXX instaliert werden; bla bla 
+
+```bash
+pip install CoolProp
+```
+Zur Modellbildung und Optimierung muss Pyomo und Python-Optimierungstools Gurobi installiert werden, die mit den folgenden Befehl installiert werden können:
+```bash
+pip install pyomo gurobipy
+```

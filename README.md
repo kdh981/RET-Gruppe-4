@@ -1,7 +1,7 @@
 <h1>Gruppenarbeit Gruppe-4 <img src="images/Logo Gruppe 4.png" width="100"></h1>
 
 ## Ziel
-
+Für das Modul Vertiefendes Rechnerpraktikum zur Energietechnik ist das Ziel, einen industriellen Dampferzeugungsprozess zu entwerfen, modellieren und zu simulieren.
 
 Für mehr Informationen über den Aufbau unseres Modells besuchen Sie gerne unsere [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/).
 
@@ -16,3 +16,27 @@ CoolProp ist eine Python-Bibliothek, die genaue Daten über thermodynamische Eig
 ```bash
 pip install CoolProp
 ```
+
+## Modell: Dampferzeuger
+### Fließbild
+Hier ist die Abbildung des einfachen modellierten Dampferzeugers, welches die Dampferzeugung rein über die Gasverbrennung bereitstellt:
+<img src="docs/Fließbild.PNG" width="300">
+
+## Ergebnis
+Ziel ist ein funktionierendes Modell mit TESPy zu erstellen und drei verschiedene Varianten zu betrachten welche der drei Varianten theoretisch den niedrigsten Gasverrbauch aufweist. Das Modell gibt in Tabellenform die benötigen Informationen wieder. Welches Modell den niedrigsten Gas verbrauch aufweist kann man unter unsere [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/) gerne herausfinden.
+
+## Ausblick
+Es können weitere Verbesserungen des Codes und somit ein genaueres Modell erstellt werden, einige Verbesserungen können sein:
+
+### Dynamische Betrachtung
+Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen, da in den bereits erstellten Modellen einige Vereinfachungen vorgenommen worden sind. Diese Annahmen beinhalten unteranderem konstante Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist.
+
+### Zukünftige Entwicklungen
+Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. 
+
+### Elektrifizierung
+Intersannt könnte Btrachtung der Elektrifizierung des Dampferzeugers sein. Unter dem Motto Power to Heat. Hier könnte unter der einbindung verschiedener erneuerbaren Energien und ein e-Heizstab eine intersannte Möglichkeit sein den Gasverbrauch auf null zu reduzieren und dabei realistische Werte für den Strommarktpreis für das Modell zu verwenden. 
+
+
+
+

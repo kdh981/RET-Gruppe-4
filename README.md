@@ -28,10 +28,10 @@ Im Folgenden ist das Fließbild eines Dampferzeugers präsentiert, welches die G
 <img src="docs/Fließbild.PNG" width="500">
 
 ## Ergebnis
-Das Ziel ist die Erstellung eines funktionierenden Modells mit TESPy, um drei verschiedene Varianten zu betrachten und festzustellen, welche theoretisch den niedrigsten Gasverbrauch aufweist. Das Modell gibt in Tabellenform die benötigten Informationen wieder. Welches Modell den niedrigsten Gasverbrauch aufweist, können Sie auf unserer [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/) nachlesen.
+Das vorrangige Ziel dieses Projekts ist die Entwicklung eines Modells mittels TESPy, um drei unterschiedliche Varianten hinsichtlich ihres Gasverbrauchs zu betrachten, um auch die Variante mit dem theoretisch niedrigsten Gasverbrauch zu identifizieren. Welches Modell den niedrigsten Gasverbrauch aufweist, können Sie auf unserer [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/#ergebnisse) nachlesen.
 
 ## Ausblick
-Es sind weitere Verbesserungen des Codes möglich, um ein genaueres Modell zu erstellen. Einige Verbesserungsmöglichkeiten sind:
+Durch gezielte Anpassungen und Erweiterungen lässt sich das Modell präzisieren, was zu einer verbesserten Abbildung der realen Prozessbedingungen führt. Potenzielle Ansatzpunkte für Verbesserungen umfassen:
 
 ### Dynamische Betrachtung
 Eine dynamische Betrachtung könnte zu realistischeren Ergebnissen führen, da die bereits erstellten Modelle einige Vereinfachungen beinhalten. Diese umfassen unter anderem die Annahme konstanter Umgebungs-, Kühlwasser- und Erdgastemperaturen sowie die Prämisse, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist.

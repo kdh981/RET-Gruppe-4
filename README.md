@@ -2,7 +2,8 @@
 
 ## Ziel
 Im Rahmen des Moduls "Vertiefendes Rechnerpraktikum zur Energietechnik" besteht das Hauptziel darin, einen industriellen Dampferzeugungsprozess zu entwerfen, zu modellieren und zu simulieren. Ein spezieller Fokus liegt auf der Überprüfung des theoretischen Gasverbrauchs für drei unterschiedliche Varianten des Prozesses. Die Semesteraufgabe stellt konkrete Anforderungen an die Erzeugung und Distribution von Sattdampf: Es sollen Hochdruckdampf (40 bar, 90 t/h), Mitteldruckdampf (14 bar, 360 t/h) und Niederdruckdampf (4 bar, 900 t/h) bereitgestellt werden. Für eine effiziente Dampfverteilung im Netzwerk ist zusätzlich ein Druckverlust von 1 bar für jede Variante zu berücksichtigen.
-Für mehr Informationen über den Aufbau unseres Modells besuchen Sie gerne unsere [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/).
+> [!NOTE]
+> Für mehr Informationen über den Aufbau unseres Modells besuchen Sie gerne unsere [Internetwebseite](https://kdh981.github.io/RET-Gruppe-4/).
 
 ## Installation
 TESPy steht für Thermal Engineering Systems in Python und ist eine Bibliothek zur Simulation und Berechnung thermodynamischer Kreisläufe und Prozesse. Sie ermöglicht Anwendern, maßgeschneiderte Lösungen für komplexe energietechnische Systeme wie Kraftwerke und Wärmepumpen zu entwickeln, indem sie eine flexible und intuitive Modellierungsumgebung bietet. Für eine funktionierende Modellierung eines Dampferzeugers ist TESPy erforderlich. Dafür muss TESPy mit folgendem Befehl installiert werden:

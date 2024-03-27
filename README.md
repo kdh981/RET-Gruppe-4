@@ -23,7 +23,7 @@ pip install CoolProp
 
 ## Modell: Dampferzeuger
 ### Fließbild
-Hier sehen Sie die Abbildung des einfach modellierten Dampferzeugers, der die Dampferzeugung rein über Gasverbrennung ermöglicht:
+Im Folgenden ist das Fließbild eines Dampferzeugers präsentiert, welches die Generierung von Dampf ausschließlich durch den Prozess der Gasverbrennung illustriert. Diese Darstellung verdeutlicht die grundlegende Konzeption und Funktionsweise des Dampferzeugers.
 
 <img src="docs/Fließbild.PNG" width="500">
 

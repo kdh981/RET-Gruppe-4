@@ -40,20 +40,16 @@
             <h2>Aufbau des Modells</h2>
            
            <p>
-Für das Grundmodell mit ausschließlicher Erdgasverbrennung wird eine schematische Darstellung in Abbildung 1 gezeigt. Der dargestellte Aufbau dient als Orientierung für die Modellierung. Bei der Verwendung von </em>Ebsilon Professional</em> wird dieser Aufbau übernommen, da das Programm primär eine grafische Benutzeroberfläche für die Modellerstellung bietet. Um das Modell zu vervollständigen, sind die Ergänzung von Reglern und die Festlegung von Startwerten notwendig. Dies ermöglicht die Realisierung eines voll funktionsfähigen Modells für die Berechnung des Gasverbrauchs. </p>
+Für das Grundmodell mit ausschließlicher Erdgasverbrennung wird eine schematische Darstellung in Abbildung 1 gezeigt. Der dargestellte Aufbau dient als Orientierung für die Modellierung. Bei der Verwendung von <em>Ebsilon Professional</em> wird dieser Aufbau übernommen, da das Programm primär eine grafische Benutzeroberfläche für die Modellerstellung bietet. Um das Modell zu vervollständigen, sind die Ergänzung von Reglern und die Festlegung von Startwerten notwendig. Dies ermöglicht die Realisierung eines voll funktionsfähigen Modells für die Berechnung des Gasverbrauchs. </p>
 <img src="Fließbild.PNG" width="700">
   <figcaption class="caption-class">Abbildung 1: Fließbild für das Modell 1 mit reiner Erdgasverbrennung.</figcaption> 
  <p style="margin-bottom: 30px;"></p>   <!-- Absatnd zum Text unten -->
  
 <p>Auf der anderen Seite wiederum steht das Modell in <em>TESPy</em> (<em>engl.: Thermal Engineering Systems in Python</em>), eine leistungsfähige Bibliothek zur Simulation thermodynamischer Kreisprozesse, die speziell für die Anwendung in Python entwickelt wurde. Mit ihr können Nutzer komplexe thermische Anlagen, wie Dampferzeuger, durch die Definition einzelner Komponenten und deren Verbindungen präzise modellieren. Diese Modellierungsfähigkeit macht <em>TESPy</em> besonders wertvoll für die Entwicklung und das Design von Dampferzeugersystemen, indem es ermöglicht, verschiedene Konfigurationen und Betriebsbedingungen effizient zu simulieren und zu bewerten.</p>
+<p>Um zu erkennen ob zumindest theoretisch der Erdgasverbrauch reduziert werden kann, werden zwei weitere Modelle entwickelt. Diese basieren auf dem Modell mit reiner Erdgasverbrennung. In <em> Modell 2</em> wird eine Solarthermie integriert. Dieser solarthermische Kreislauf fördert 500 t/h, bei 300 °C und 10 bar Thermoöl und entspricht etwa XXX thermische Energie. In Abbildung 2 ist die Integration der Solarthermie als Fließbild  dargestellt.</p>
 
 <img src="Solar.png" width="600">
   <figcaption class="caption-class">Abbildung 2: Fließbild mit Solarthermie zuschaltung.</figcaption> 
-
-
-<p>Um zu erkennen ob zumindest theoretisch der Erdgasverbrauch reduziert werden kann, werden zwei weitere Modelle entwickelt. Diese basieren auf dem Modell mit reiner Erdgasverbrennung. In <em> Modell 2</em> wird eine Solarthermie integriert. Dieser solarthermische Kreislauf fördert 500 t/h, bei 300 °C und 10 bar Thermoöl und entspricht etwa XXX thermische Energie. In Abbildung 2 ist die Integration der Solarthermie als Fließbild  dargestellt.</p>
-
-
 
 <p> Im letzten Modell wird eine Wärmepumpe integriert. Diese Variante ist der Abbildung 3 zu entnehmen. 
 </p>

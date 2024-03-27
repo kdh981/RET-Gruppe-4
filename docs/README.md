@@ -31,7 +31,7 @@
         <section id="einleitung">
             <h2>Einleitung und Aufgabenstellung</h2>
             <p>Im Rahmen des Moduls „Vertiefendes Rechnerpraktikum zur Energietechnik“ besteht das Ziel darin, einen industriellen Dampferzeugungsprozess zu entwerfen, zu modellieren und zu simulieren. Hierfür kommen die Programme <em>TESPy</em> und <em>Ebsilon</em> zum Einsatz.</p>
-            <p>Die Grundvariante des modellierten Dampferzeugers verwendet Erdgas, das in einer Brennkammer verbrannt wird, um die erforderlichen Dampfstufen zu erreichen. Eine Gasturbine ist zwischen der Brennkammer und dem Wärmetauscher positioniert, um elektrische Energie zu generieren und die hohe Temperatur der Abwärme effektiv zu nutzen. In weiterführenden Modellen erfolgt die Untersuchung der Integration einer Wärmepumpe sowie solarthermischer Energie. Dabei wird erörtert, inwieweit diese Integrationen eine sinnvolle Maßnahme zur Reduzierung des CO&#8322;-Ausstoßes darstellen können.</p>
+            <p>Die Grundvariante des modellierten Dampferzeugers verwendet Erdgas, das in einer Brennkammer verbrannt wird, um die erforderlichen Dampfstufen zu erreichen. Eine Gasturbine ist zwischen der Brennkammer und dem Wärmetauscher positioniert, um elektrische Energie zu generieren, um die hohe Abgastemperatur effektiv zu nutzen. In weiterführenden Modellen erfolgt die Untersuchung der Integration einer Wärmepumpe sowie solarthermischer Energie. Dabei wird erörtert, inwieweit diese Integrationen eine sinnvolle Maßnahme zur Reduzierung des CO&#8322;-Ausstoßes darstellen können.</p>
             
         </section>
 

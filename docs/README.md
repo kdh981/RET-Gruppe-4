@@ -51,9 +51,8 @@ Für das Grundmodell mit ausschließlicher Erdgasverbrennung wird eine schematis
 <img src="Solar.png" width="600">
   <figcaption class="caption-class">Abbildung 2: Fließbild mit Solarthermie zuschaltung.</figcaption> 
 
-<p> Im letzten Modell wird eine Wärmepumpe anstelle einer Solarthermie integriert. Diese Variante ist der Abbildung 3 zu entnehmen. Für das Modell wird eine Wärmepumpe des Modells Large Heat Pumps (LHP) von der Firma Turboden S.p.A. verwendet. Die LHP-Technologie von Turboden, ergänzt durch die mechanische Dampfkompression (engl.: Mechanical Vapor Recompression; MVR), bietet eine leistungsstarke Lösung für groß angelegte Heizanwendungen, einschließlich der Erzeugung von überhitztem Dampf. 
-</p> 
-<p> Diese LHP ereugt bei 250 °C und 10 bar etwa 40 MWh thermische Energie. </p> 
+<p> Im letzten Modell kommt anstelle der Solarthermie eine Wärmepumpe zum Einsatz. Diese Variante wird in Abbildung 3 dargestellt. Für dieses Modell wird eine Wärmepumpe vom Typ Large Heat Pumps (LHP) der Firma Turboden S.p.A. verwendet. Die LHP-Technologie von Turboden, die durch mechanische Dampfkompression (<em>englisch: Mechanical Vapor Recompression</em>, MVR) ergänzt wird, stellt eine effiziente Lösung für großskalige Heizanwendungen dar, einschließlich der Produktion von überhitztem Dampf.
+Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. </p> 
 
 <img src="Wärmepumpe.png" width="600">
   <figcaption class="caption-class">Abbildung 3: Fließbild mit zusätzlicher Wärmepumpe.</figcaption>

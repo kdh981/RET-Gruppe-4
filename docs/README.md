@@ -60,7 +60,7 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
 
             
             <!-- Tabelle 1: Zielwerte -->
-            <p>Für das Modell sind die Zielwerte in Tabelle 1 zusammengefasst. Diese Zielwerte werden in den erstellten Modellen immer erreicht.</p>
+            <p>Die Zielwerte für das Modell sind in Tabelle 1 dargestellt. Es ist hervorzuheben, dass diese Zielwerte in den konzipierten Modellen konsistent erreicht werden.</p>
             <table id="tabelle-zielwerte">
   <caption>Tabelle 1: Zielwerte</caption>
   <thead>

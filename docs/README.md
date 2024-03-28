@@ -94,36 +94,44 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
 <p>Die Ausgangswerte für den Prozess sind in Tabelle 2 dargestellt.</p>
 <table id="tabelle-ausgangswerte">
     <caption>Tabelle 2: Ausgangswerte</caption>
-    <thead>
-        <tr>
-            <th>Parameter</th>
-            <th>Symbol</th>
-            <th>Wert</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Druckverlust</td>
-            <td>pDV</td>
-            <td>1 bar</td>
-        </tr>
-        <tr>
-            <td>Erdgas</td>
-            <td>pEG; TEG</td>
-            <td>30 bar; 15 °C</td>
-        </tr>
-        <tr>
-            <td>Luft</td>
-            <td>pLuft; Tluft</td>
-            <td>1 bar; 15 °C</td>
-        </tr>
-        <tr>
-            <td>Luftzusammensetzung</td>
-            <td>x</td>
-            <td>N2: 0,79; O2: 0,21</td>
-        </tr>
-    </tbody>
+<table border="1">
+  <caption>Ausgangswerte</caption>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Druckverlust</td>
+      <td>pDV</td>
+      <td>1 bar</td>
+    </tr>
+    <tr>
+      <td>Erdgas</td>
+      <td>pEG; TEG</td>
+      <td>30 bar; 15 °C</td>
+    </tr>
+    <tr>
+      <td>Luft</td>
+      <td>pLuft; Tluft</td>
+      <td>1 bar; 15 °C</td>
+    </tr>
+    <tr>
+      <td>Lambda</td>
+      <td>λ</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Luftzusammensetzung</td>
+      <td>x</td>
+      <td>N2: 0,79; O2: 0,21</td>
+    </tr>
+  </tbody>
 </table>
+
 
 
 <!-- Tabelle 3 -->
@@ -238,11 +246,6 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
                     <td>kg/s</td>
                 </tr>
                 <tr>
-                    <td>Luftzahl Lambda</td>
-                    <td>1,05</td>
-                    <td></td>
-                </tr>
-                <tr>
                     <td>Modell 2 (Gas + ST)</td>
                     <td></td>
                     <td></td>
@@ -272,11 +275,6 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
                     <td>Gas CH4</td>
                     <td>38,98</td>
                     <td>kg/s</td>
-                </tr>
-                <tr>
-                    <td>Luftzahl Lambda</td>
-                    <td>1,05</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>Modell 2 (Gas + ST)</td>
@@ -315,3 +313,5 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
     </footer>
 <!-- </body> 
 </html> -->
+
+

@@ -36,6 +36,14 @@ cmp_dr2 = Drum('Trommel2')
 src2_H2O = Source('water2')
 snk2_H20 = Sink('steam2')
 
+# components of system Steamgenerator nr.3
+cmp_eco3 = HeatExchanger('economiser3')
+cmp_pmp3 = Pump('pumpe3')
+cmp_eva3 = HeatExchanger('evaporator3')
+cmp_dr3 = Drum('Trommel3')
+src3_H2O = Source('water3')
+snk3_H20 = Sink('steam3')
+
 # connection Turbine System
 c01 = Connection(src_air, 'out1', cmp_cp, 'in1', label='01')
 c02 = Connection(cmp_cp, 'out1', cmp_cc, 'in1', label='02')
@@ -45,9 +53,11 @@ c05 = Connection(cmp_tb, 'out1', cmp_eva1, 'in1', label='05')
 c06 = Connection(cmp_eva1, 'out1', cmp_eco1, 'in1', label='06')
 c07 = Connection(cmp_eco1, 'out1', cmp_eva2, 'in1', label='07')
 c08 = Connection(cmp_eva2, 'out1', cmp_eco2, 'in1', label='08')
-c09 = Connection(cmp_eco2, 'out1', snk_fg, 'in1', label='09')
+c09 = Connection(cmp_eco2, 'out1', cmp_eva3, 'in1', label='09')
+c10 = Connection(cmp_eva3, 'out1', cmp_eco3, 'in1', label='10')
+c11 = Connection(cmp_eco3, 'out1', snk_fg, 'in1', label='11')
 
-steamgenerator.add_conns(c01, c02, c03, c04, c05, c06, c07, c08, c09)
+steamgenerator.add_conns(c01, c02, c03, c04, c05, c06, c07, c08, c09, c10, c11)
 
 #connection Evaporator nr.1
 D11 = Connection(src_H2O, 'out1', cmp_pmp1, 'in1', label='D11')
@@ -69,40 +79,59 @@ D26 = Connection(cmp_dr2, 'out2', snk2_H20, 'in1', label='D26')
 
 steamgenerator.add_conns(D21, D22, D23, D24, D25, D26)
 
+#connection Evaporator nr.3
+D31 = Connection(src3_H2O, 'out1', cmp_pmp3, 'in1', label='D31')
+D32 = Connection(cmp_pmp3, 'out1', cmp_eco3, 'in2', label='D32')
+D33 = Connection(cmp_eco3, 'out2', cmp_dr3, 'in1', label='D33')
+D34 = Connection(cmp_dr3, 'out1', cmp_eva3, 'in2', label='D34')
+D35 = Connection(cmp_eva3, 'out2', cmp_dr3, 'in2', label='D35')
+D36 = Connection(cmp_dr3, 'out2', snk3_H20, 'in1', label='D36')
+
+steamgenerator.add_conns(D31, D32, D33, D34, D35, D36)
+
 
 # components Data Turbine System
 cmp_cp.set_attr(eta_s=0.8)
 cmp_tb.set_attr(eta_s=0.9)
 cmp_cc.set_attr(lamb=2)
-
 #data Turbine connections
 c01.set_attr(p=1, T=15, fluid=fld_air)
-c03.set_attr(T=15, m=3, p=30, fluid=fld_gas)
-#c04.set_attr(T=1600) #wieso funktioniert es nicht mit der Turbineneintrittstemperatur?
-c09.set_attr(p=1)
+c03.set_attr(T=15, m=50, p=30, fluid=fld_gas)
+c11.set_attr(p=1)
+
 
 #components Data Evaporator nr.1
 cmp_pmp1.set_attr(eta_s=0.8)
 cmp_eco1.set_attr(pr1=1, pr2=1)
 cmp_eva1.set_attr(pr1=1)
-
 #data Evaporator nr.1 connections
 D11.set_attr(T=60, p=1, m=25, fluid=water)
-D12.set_attr(p=40)
-D13.set_attr(h=CPSI('H', 'Q', 0, 'P', 40*1e5, 'water')/1e3)
-D15.set_attr(h=CPSI('H', 'Q', 1, 'P', 40*1e5, 'water')/1e3)
+D12.set_attr(p=41)
+D13.set_attr(h=CPSI('H', 'Q', 0, 'P', 41*1e5, 'water')/1e3)
+D15.set_attr(h=CPSI('H', 'Q', 1, 'P', 41*1e5, 'water')/1e3)
 
 
 #components Data Evaporator nr.2
 cmp_pmp2.set_attr(eta_s=0.8)
 cmp_eco2.set_attr(pr1=1, pr2=1)
 cmp_eva2.set_attr(pr1=1)
-
 #data Evaporator nr.2 connections
-D21.set_attr(T=60, p=1, m=10, fluid=water)
-D22.set_attr(p=14)
-D23.set_attr(h=CPSI('H', 'Q', 0, 'P', 14*1e5, 'water')/1e3)
-D25.set_attr(h=CPSI('H', 'Q', 1, 'P', 14*1e5, 'water')/1e3)
+D21.set_attr(T=60, p=1, m=100, fluid=water)
+D22.set_attr(p=15)
+D23.set_attr(h=CPSI('H', 'Q', 0, 'P', 15*1e5, 'water')/1e3)
+D25.set_attr(h=CPSI('H', 'Q', 1, 'P', 15*1e5, 'water')/1e3)
+
+
+#components Data Evaporator nr.3
+cmp_pmp3.set_attr(eta_s=0.8)
+cmp_eco3.set_attr(pr1=1, pr2=1)
+cmp_eva3.set_attr(pr1=1)
+#data Evaporator nr.3 connections
+D31.set_attr(T=60, p=1, m=250, fluid=water)
+D32.set_attr(p=5)
+D33.set_attr(h=CPSI('H', 'Q', 0, 'P', 5*1e5, 'water')/1e3)
+D35.set_attr(h=CPSI('H', 'Q', 1, 'P', 5*1e5, 'water')/1e3)
+
 
 # results
 steamgenerator.solve(mode='design')
@@ -110,9 +139,11 @@ steamgenerator.print_results()
 
 #was machst dieser Schritt genau ?
 c03.set_attr(m=None)
-cmp_eco1.set_attr(ttd_l=20)
-#cmp_eco2.set_attr(ttd_l=20)
+cmp_eco3.set_attr(ttd_u=25)
+cmp_cc.set_attr(lamb=None)
+c04.set_attr(T=1600)
 
 steamgenerator.solve(mode='design')
 steamgenerator.print_results()
+
 

@@ -302,8 +302,10 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
 
 <p> Um den Zeitaufwand zu optimieren, wurden die Modelle partiell vereinfacht. Dies umfasst auch, dass die Modelle derzeit noch offen konzipiert sind. Zukünftige Anpassungen könnten vorsehen, dass diese Modelle zu einem vollständigen Kreislauf geschlossen werden.
 </p>
+
+<p> Eine weitere sinnvolle Untersuchung könnte die Evaluierung der Gasersparnisse sein, die durch den Verzicht auf die Vorwärmung mittels einer alternativen Wärmequelle und stattdessen durch die vollständige Verdampfung in einem der drei Dampfkreisläufe erzielt werden kann. Eine solche Konfiguration könnte potenziell zu deutlich höheren Einsparungen führen. Dies liegt daran, dass die Erwärmung von Wasser bis knapp unter seinen Siedepunkt relativ wenig Energie verbraucht im Vergleich zur Energiemenge, die für die Phasenänderung des Wassers von flüssig zu gasförmig benötigt wird. Die Verdampfungswärme, also die Energie, die erforderlich ist, um Wasser bei konstanter Temperatur und Druck zu verdampfen, stellt einen signifikanten Anteil des Gesamtenergiebedarfs im Prozess der Dampferzeugung dar. </p>
            
-            <p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen.</p>
+<p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen.</p>
         </section>
     
 

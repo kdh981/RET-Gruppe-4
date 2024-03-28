@@ -285,7 +285,7 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
                 <tr>
                     <td>Modell 3 (Gas + WP)</td>
                     <td></td>
-                    <td><kg/s/td>
+                    <td>kg/s</td>
                 </tr>
             </tbody>
         </table>

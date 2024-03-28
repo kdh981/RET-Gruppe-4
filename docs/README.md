@@ -222,8 +222,9 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
         <!-- Ergebnisse -->
         <section id="ergebnisse">
             <h2>Ergebnisse</h2>
-            <p> Der theoretische Gasverbrauch weist für die reine Gasverbrennung einen signifikanten Unterschied zwischen den simulierten Modellen auf. Während der Verbrauch im <em> TESPy</em> -Modell bei circa 43 kg/s liegt, zeigt <em> Ebsilon Professional</em> einen um etwa 60 % höheren Gasverbrauch von 69,3 kg/s. Dieser markante Unterschied in den Resultaten lässt sich nicht ausschließlich durch die Verwendung unterschiedlicher Rechenmodelle und Stoffwertbibliotheken erklären. Mögliche Gründe für diese Diskrepanz könnte ein anderer Aufbau des Modells zwischen einander sein oder eventuell in einer fehlerhaften Definition einer Komponente liegen.
+            <p> Der theoretische Gasverbrauch weist für die reine Gasverbrennung einen signifikanten Unterschied zwischen den simulierten Modellen auf. Während der Verbrauch im <em> TESPy</em> -Modell bei circa 43 kg/s liegt, zeigt <em> Ebsilon Professional</em> einen um etwa 60 % höheren Gasverbrauch von 69,3 kg/s. Dieser markante Unterschied in den Resultaten lässt sich nicht ausschließlich durch die Verwendung unterschiedlicher Rechenmodelle und Stoffwertbibliotheken erklären. Mögliche Gründe für diese Diskrepanz könnte ein anderer Aufbau des Modells zwischen einander sein oder eventuell in einer fehlerhaften Definition einer Komponente liegen. Eine weitere mögliche Ursache für die Abweichungen im theoretischen Gasverbrauch könnte in einer suboptimalen Steuerung liegen oder daraus resultieren, dass der Kreislauf in <em> Ebsilon Professional</em> nicht fehlerfrei geschlossen wurde.
 </p>
+
 
            
 <!-- Tabelle 6 -->

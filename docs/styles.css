@@ -1,0 +1,121 @@
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    text-align: justify; 
+}
+
+p {
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+/* Styling für die Tabellen */
+table {
+    width: 100%; /* Volle Breite für Tabellen */
+    margin-bottom: 20px; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
+
+th {
+    background-color: #e0ebf9; 
+    color: #333; 
+}
+
+caption {
+    margin-bottom: 5px; /* Geringerer Abstand für Tabellenbeschriftungen */
+    font-weight: bold; 
+    text-align: left; 
+}
+
+/* Verringert den Abstand zwischen einem Absatz und der folgenden Tabelle */
+p + table {
+    margin-top: 10px; 
+}
+
+/* Zwei Tabellen nebeneinander */
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Umbruch für kleine Bildschirme */
+}
+
+.table-half {
+    width: 48%; /* Platz für zwei Tabellen */
+    margin-right: 0.1%; /* Anpassen des Seitenabstands zwischen den Tabellen */
+}
+
+
+/* Stelle sicher, dass die Tabellen nicht zu schmal werden */
+@media (max-width: 768px) {
+    .table-half {
+        width: 100%; /* Volle Breite für kleine Bildschirme */
+    }
+}
+
+/* Navigationsleiste */
+nav {
+    background-color: #0056b3; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left; 
+}
+
+nav ul li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    background-color: #003d7a; 
+}
+
+nav ul li a:active,
+nav ul li a:focus {
+    background-color: #004c99; 
+}
+
+/* Stile für den Fußbereich */
+footer {
+    background-color: #0056b3; 
+    color: white; 
+    text-align: center; 
+    padding: 2px 0; 
+}
+
+.footer-content {
+    margin: auto;
+    width: 80%; 
+}
+
+footer p {
+    margin: 0; 
+}
+
+/* Stil für Überschriften */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; 
+}
+
+/* Stil für Bildunterschriften */
+figcaption {
+    font-weight: bold; /* Macht den Text fett */
+}
+

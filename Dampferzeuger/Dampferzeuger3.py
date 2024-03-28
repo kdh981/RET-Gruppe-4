@@ -93,47 +93,45 @@ steamgenerator.add_conns(D31, D32, D33, D34, D35, D36)
 # components Data Turbine System
 cmp_cp.set_attr(eta_s=0.8)
 cmp_tb.set_attr(eta_s=0.9)
-#cmp_cc.set_attr(lamb=2)
-
+cmp_cc.set_attr(lamb=2)
 #data Turbine connections
-c01.set_attr(p=1, T=15, m=95, fluid=fld_air)
-c03.set_attr(T=15, m=3, p=30, fluid=fld_gas)
-#c04.set_attr(T=1600) #wieso funktioniert es nicht mit der Turbineneintrittstemperatur?
+c01.set_attr(p=1, T=15, fluid=fld_air)
+c03.set_attr(T=15, m=50, p=30, fluid=fld_gas)
 c11.set_attr(p=1)
+
 
 #components Data Evaporator nr.1
 cmp_pmp1.set_attr(eta_s=0.8)
 cmp_eco1.set_attr(pr1=1, pr2=1)
 cmp_eva1.set_attr(pr1=1)
-
 #data Evaporator nr.1 connections
 D11.set_attr(T=60, p=1, m=25, fluid=water)
-D12.set_attr(p=40)
-D13.set_attr(h=CPSI('H', 'Q', 0, 'P', 40*1e5, 'water')/1e3)
-D15.set_attr(h=CPSI('H', 'Q', 1, 'P', 40*1e5, 'water')/1e3)
+D12.set_attr(p=41)
+D13.set_attr(h=CPSI('H', 'Q', 0, 'P', 41*1e5, 'water')/1e3)
+D15.set_attr(h=CPSI('H', 'Q', 1, 'P', 41*1e5, 'water')/1e3)
 
 
 #components Data Evaporator nr.2
 cmp_pmp2.set_attr(eta_s=0.8)
 cmp_eco2.set_attr(pr1=1, pr2=1)
 cmp_eva2.set_attr(pr1=1)
-
 #data Evaporator nr.2 connections
-D21.set_attr(T=60, p=1, m=10, fluid=water)
-D22.set_attr(p=14)
-D23.set_attr(h=CPSI('H', 'Q', 0, 'P', 14*1e5, 'water')/1e3)
-D25.set_attr(h=CPSI('H', 'Q', 1, 'P', 14*1e5, 'water')/1e3)
+D21.set_attr(T=60, p=1, m=100, fluid=water)
+D22.set_attr(p=15)
+D23.set_attr(h=CPSI('H', 'Q', 0, 'P', 15*1e5, 'water')/1e3)
+D25.set_attr(h=CPSI('H', 'Q', 1, 'P', 15*1e5, 'water')/1e3)
+
 
 #components Data Evaporator nr.3
 cmp_pmp3.set_attr(eta_s=0.8)
 cmp_eco3.set_attr(pr1=1, pr2=1)
 cmp_eva3.set_attr(pr1=1)
-
 #data Evaporator nr.3 connections
-D31.set_attr(T=60, p=1, m=2.5, fluid=water)
-D32.set_attr(p=4)
-D33.set_attr(h=CPSI('H', 'Q', 0, 'P', 4*1e5, 'water')/1e3)
-D35.set_attr(h=CPSI('H', 'Q', 1, 'P', 4*1e5, 'water')/1e3)
+D31.set_attr(T=60, p=1, m=250, fluid=water)
+D32.set_attr(p=5)
+D33.set_attr(h=CPSI('H', 'Q', 0, 'P', 5*1e5, 'water')/1e3)
+D35.set_attr(h=CPSI('H', 'Q', 1, 'P', 5*1e5, 'water')/1e3)
+
 
 # results
 steamgenerator.solve(mode='design')
@@ -141,11 +139,11 @@ steamgenerator.print_results()
 
 #was machst dieser Schritt genau ?
 c03.set_attr(m=None)
-cmp_eco1.set_attr(ttd_l=20)
-c01.set_attr(m=None)
+cmp_eco3.set_attr(ttd_u=25)
+cmp_cc.set_attr(lamb=None)
 c04.set_attr(T=1600)
-#cmp_eco2.set_attr(ttd_l=20)
 
 steamgenerator.solve(mode='design')
 steamgenerator.print_results()
+
 

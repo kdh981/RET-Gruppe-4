@@ -222,7 +222,10 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
         <!-- Ergebnisse -->
         <section id="ergebnisse">
             <h2>Ergebnisse</h2>
-            <p>Darstellung der Ergebnisse...</p>
+            <p> Der theoretische Gasverbrauch weist für die reine Gasverbrennung einen signifikanten Unterschied zwischen den simulierten Modellen auf. Während der Verbrauch im <em> TESPy</em> -Modell bei circa 43 kg/s liegt, zeigt <em> Ebsilon Professional</em> einen um etwa 60 % höheren Gasverbrauch von 69,3 kg/s. Dieser markante Unterschied in den Resultaten lässt sich nicht ausschließlich durch die Verwendung unterschiedlicher Rechenmodelle und Stoffwertbibliotheken erklären. Mögliche Gründe für diese Diskrepanz könnte ein anderer Aufbau des Modells zwischen einander sein oder eventuell in einer fehlerhaften Definition einer Komponente liegen. Eine weitere mögliche Ursache für die Abweichungen im theoretischen Gasverbrauch könnte in einer suboptimalen Steuerung liegen oder daraus resultieren, dass der Kreislauf in <em> Ebsilon Professional</em> nicht fehlerfrei geschlossen wurde.
+</p>
+
+
            
 <!-- Tabelle 6 -->
 <div class="table-container">
@@ -296,6 +299,10 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
         <section id="ausblick">
             <h2>Ausblick</h2>
             <p>Die gestellte Aufgabe wurde erfolgreich bewältigt. Alle Ziele wurden erreicht, darunter die Konzeption, Modellierung und Simulation eines industriellen Dampferzeugungsprozesses. Es wurde untersucht, wie sich die Integration einer Wärmepumpe oder einer Solarthermie auf den Gasverbrauch auswirkt. Dabei hat sich herausgestellt, dass...</p>
+
+<p> Um den Zeitaufwand zu optimieren, wurden die Modelle partiell vereinfacht. Dies umfasst auch, dass die Modelle derzeit noch offen konzipiert sind. Zukünftige Anpassungen könnten vorsehen, dass diese Modelle zu einem vollständigen Kreislauf geschlossen werden.
+</p>
+           
             <p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen.</p>
         </section>
     

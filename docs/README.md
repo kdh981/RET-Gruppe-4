@@ -94,8 +94,6 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
 <p>Die Ausgangswerte für den Prozess sind in Tabelle 2 dargestellt.</p>
 <table id="tabelle-ausgangswerte">
     <caption>Tabelle 2: Ausgangswerte</caption>
-<table border="1">
-  <caption>Ausgangswerte</caption>
   <thead>
     <tr>
       <th>Parameter</th>

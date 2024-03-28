@@ -179,7 +179,7 @@ D38.set_attr(m=250)
 K3.set_attr(p=4)
 K4.set_attr(p=1)
 K2.set_attr(T=60, p=1)
-K5.set_attr(m=401.7)
+#K5.set_attr(m=401.7)
 
 
 
@@ -249,3 +249,4 @@ steamgenerator.add_busses(power, electricityPW, electricConsumer,heatProducer,ex
 ean = ExergyAnalysis(network=steamgenerator, E_F=[power, electricConsumer], E_P=[electricityPW, heatProducer], E_L=[exergy_loss_bus])
 ean.analyse(1.013, 25)
 ean.print_results()
+

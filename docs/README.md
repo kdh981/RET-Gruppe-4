@@ -270,12 +270,12 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
             <tbody>
                 <tr>
                     <td>Gas CH4</td>
-                    <td></td>
+                    <td>38,98</td>
                     <td>kg/s</td>
                 </tr>
                 <tr>
                     <td>Luftzahl Lambda</td>
-                    <td></td>
+                    <td>1,05</td>
                     <td></td>
                 </tr>
                 <tr>

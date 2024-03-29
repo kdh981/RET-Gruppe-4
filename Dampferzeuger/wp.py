@@ -56,7 +56,7 @@ src_Dampf = Source('Vapor')
 src_Kondensat = Source('Kondensat')
 cmp_drossel = Valve('Drossel')
 
-#solar
+#wp
 src_wp = Source('src oel')
 snk_wp = Sink('snk oel')
 cmp_eco_wp1 = HeatExchanger('wpeco1')
@@ -125,14 +125,15 @@ D37 = Connection(cmp_dr3, 'out2', snk3_H20, 'in1', label='D37')
 steamgenerator.add_conns(D31, D32, D33, D34, D35, D36, D37)
 
 #connection Wärmepumpe
-I1 = Connection(src_wp, 'out1', cmp_eco_wp1, 'in1', label='I1')
+I1 = Connection(cmp_comp, 'out1', cmp_eco_wp1, 'in1', label='I1')
 I2 = Connection(cmp_eco_wp1, 'out1', cmp_eco_wp2, 'in1', label='I2')
 I3 = Connection(cmp_eco_wp2, 'out1', cmp_eco_wp3, 'in1', label='I3')
 I4 = Connection(cmp_eco_wp3, 'out1', cmp_throttel, 'in1', label='I4')
 I5 = Connection(cmp_throttel, 'out1', cmp_heatsrc, 'in2', label='I5')
-I6 = Connection(cmp_heatsrc, 'out2', snk_wp, 'in1', label='I6')
+I6 = Connection(cmp_heatsrc, 'out2', cyclecloser, 'in1', label='I6')
+I7 = Connection(cyclecloser, 'out1', cmp_comp, 'in1', label='I7')
 
-steamgenerator.add_conns(I1, I2, I3, I4, I5, I6)
+steamgenerator.add_conns(I1, I2, I3, I4, I5, I6, I7)
 
 
 # components Data Turbine System
@@ -217,3 +218,4 @@ cmp_heatsrc.set_attr(ttd_l=25)
 
 steamgenerator.solve(mode='design')
 steamgenerator.print_results()
+

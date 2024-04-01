@@ -167,7 +167,7 @@ cmp_eva2.set_attr(pr1=1)
 #data Evaporator nr.2 connections
 D21.set_attr(m=100)
 D22.set_attr(p=15)
-D23.set_attr(Td_bp=-3)
+D23.set_attr(Td_bp=-5)
 D24.set_attr(h=CPSI('H', 'Q', 0, 'P', 15*1e5, 'water')/1e3)
 D26.set_attr(h=CPSI('H', 'Q', 1, 'P', 15*1e5, 'water')/1e3)
 
@@ -180,7 +180,7 @@ cmp_eva3.set_attr(pr1=1)
 #data Evaporator nr.3 connections
 #D31.set_attr(T=60, p=1, m=250, fluid=water)
 D32.set_attr(p=5)
-D33.set_attr(Td_bp=-3)
+D33.set_attr(Td_bp=-5)
 D34.set_attr(h=CPSI('H', 'Q', 0, 'P', 5*1e5, 'water')/1e3)
 D36.set_attr(h=CPSI('H', 'Q', 1, 'P', 5*1e5, 'water')/1e3)
 
@@ -214,7 +214,8 @@ cmp_cc.set_attr(lamb=None)
 c04.set_attr(T=1600)
 S1.set_attr(m=None, h=CPSI('H', 'Q', 1, 'P', 4*1e5, 'water')/1e3)
 I6.set_attr(T=None)
-cmp_heatsrc.set_attr(ttd_l=25)
+#cmp_heatsrc.set_attr(ttd_l=25)
+cmp_comp.set_attr(eta_s=0.8)
 
 steamgenerator.solve(mode='design')
 steamgenerator.print_results()

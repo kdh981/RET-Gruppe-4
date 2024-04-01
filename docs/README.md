@@ -298,7 +298,12 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
         <!-- Ausblick -->
         <section id="ausblick">
             <h2>Ausblick</h2>
-            <p>Die gestellte Aufgabe wurde erfolgreich bewältigt. Alle Ziele wurden erreicht, darunter die Konzeption, Modellierung und Simulation eines industriellen Dampferzeugungsprozesses. Es wurde untersucht, wie sich die Integration einer Wärmepumpe oder einer Solarthermie auf den Gasverbrauch auswirkt. Dabei hat sich herausgestellt, dass...</p>
+            <p> Die durchgeführte Aufgabe wurde erfolgreich abgeschlossen. Sämtliche Ziele, einschließlich der Entwicklung, Modellierung und Simulation eines industriellen Dampferzeugungsprozesses, wurden erfüllt. In diesem Kontext erfolgte eine detaillierte Untersuchung der Auswirkungen, die die Integration einer Wärmepumpe oder Solarthermie auf den Verbrauch von Gas hat. Hierbei zeigte sich, dass die Anwendung einer Vorwärmung im Modell mittels <em>Ebsilon</em> den Gasverbrauch leicht erhöht, wohingegen dieselbe Maßnahme in <em>TESPy</em> eine Reduzierung des Gasverbrauchs zur Folge hat. Es ist jedoch zu betonen, dass die Änderungen im Gasverbrauch bei beiden Programmen nur marginal sind und sich auf etwa 1,5 kg/s belaufen. Bemerkenswert ist, dass das Modell von <em>TESPy</em> einen signifikant geringeren Gasverbrauch aufweist, welcher um circa 62 % niedriger liegt als der von <em>Ebsilon</em> ermittelte Verbrauch.            
+            </p>
+<p>
+
+    
+</p>
 
 <p> Um den Zeitaufwand zu optimieren, wurden die Modelle partiell vereinfacht. Dies umfasst auch, dass die Modelle derzeit noch offen konzipiert sind. Zukünftige Anpassungen könnten vorsehen, dass diese Modelle zu einem vollständigen Kreislauf geschlossen werden.
 </p>

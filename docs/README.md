@@ -292,7 +292,6 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
     </div>
 </div>
 
-</div>
 
 <p>Es ist jedoch zu betonen, dass die Änderungen im Gasverbrauch bei beiden Programmen gering ist und sich auf etwa 1,5 kg/s belaufen. Der festgestellte Unterschied lässt sich möglicherweise darauf zurückführen, dass im <em>Ebsilon</em>-Modell für die reine Gasverbrennung ohne Vorwärmung ein Verdampfer eingesetzt wurde, während bei den Modellen mit Vorwärmung auf einfache Wärmetauscher zurückgegriffen wurde. Diese sind im Vergleich zu einem klassischen Verdampfer für den Verdampfungsprozess weniger effizient, was zu einem höheren Gasverbrauch in den Ebsilon-Modellen trotz Vorwärmung führen kann. Hier ist zu erwähnen, dass das Modell von <em>TESPy</em> einen signifikant geringeren Gasverbrauch aufweist, welcher um circa 62 % niedriger liegt als der von <em>Ebsilon</em> ermittelte Verbrauch.            
             </p>
@@ -311,7 +310,7 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
 <p> Eine weitere sinnvolle Untersuchung könnte die Evaluierung der Gasersparnisse sein, die durch den Verzicht auf die Vorwärmung mittels einer alternativen Wärmequelle und stattdessen durch die vollständige Verdampfung in einem der drei Dampfkreisläufe erzielt werden kann. Eine solche Konfiguration könnte potenziell zu deutlich höheren Einsparungen führen. Dies liegt daran, dass die Erwärmung von Wasser bis knapp unter seinen Siedepunkt relativ wenig Energie verbraucht im Vergleich zur Energiemenge, die für die Phasenänderung des Wassers von flüssig zu gasförmig benötigt wird. Die Verdampfungswärme, also die Energie, die erforderlich ist, um Wasser bei konstanter Temperatur und Druck zu verdampfen, stellt einen signifikanten Anteil des Gesamtenergiebedarfs im Prozess der Dampferzeugung dar. </p>
            
 <p>Für die Zukunft könnten weitere Integrationen moderner und erneuerbarer Technologien modelliert werden, um einen industriellen Dampferzeugungsprozess zu entwerfen, der unabhängig von fossilen Brennstoffen ist. In den bereits erstellten Modellen sind einige Vereinfachungen vorgenommen worden, wie die Annahme einer konstanten Umgebungs-, Kühlwasser- und Erdgastemperatur sowie die Annahme, dass immer ein konstanter Abnehmer des produzierten Dampfes vorhanden ist. Eine dynamische Betrachtung könnte hier zu realistischeren Ergebnissen führen.</p>
-        </section>
+     
     
 
     <!-- Fußbereich -->

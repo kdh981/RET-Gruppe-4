@@ -292,7 +292,7 @@ Diese LHP generiert bei 250 °C und 10 bar etwa 40 MWh an thermischer Energie. <
     </div>
 </div>
 
-</section>
+</div>
 
 <p>Es ist jedoch zu betonen, dass die Änderungen im Gasverbrauch bei beiden Programmen gering ist und sich auf etwa 1,5 kg/s belaufen. Der festgestellte Unterschied lässt sich möglicherweise darauf zurückführen, dass im <em>Ebsilon</em>-Modell für die reine Gasverbrennung ohne Vorwärmung ein Verdampfer eingesetzt wurde, während bei den Modellen mit Vorwärmung auf einfache Wärmetauscher zurückgegriffen wurde. Diese sind im Vergleich zu einem klassischen Verdampfer für den Verdampfungsprozess weniger effizient, was zu einem höheren Gasverbrauch in den Ebsilon-Modellen trotz Vorwärmung führen kann. Hier ist zu erwähnen, dass das Modell von <em>TESPy</em> einen signifikant geringeren Gasverbrauch aufweist, welcher um circa 62 % niedriger liegt als der von <em>Ebsilon</em> ermittelte Verbrauch.            
             </p>
